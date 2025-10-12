@@ -1,5 +1,7 @@
 ---
-import "../styles/global.css";
+import "@/styles/global.css";
+import { Image } from "astro:assets";
+import logo from "@/images/NLC-logo.svg";
 
 const {
   title = "NewLad Creations",
@@ -17,7 +19,10 @@ const {
   <body class="h-full flex flex-col bg-white text-slate-900">
     <header class="border-b">
       <nav class="mx-auto max-w-5xl flex items-center justify-between p-4">
-        <a href="/" class="font-semibold">NewLad Creations</a>
+        <div class="flex items-center gap-2">
+          <Image src={logo} alt="NewLad Creations" width={32} height={32} />
+          <a href="/" class="font-semibold hidden sm:block">NewLad Creations</a>
+        </div>
         <ul class="flex gap-4">
           <li><a href="/" class="hover:underline">Home</a></li>
           <li><a href="/creations" class="hover:underline">Creations</a></li>
