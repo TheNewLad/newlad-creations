@@ -1,5 +1,17 @@
 ---
 import BaseLayout from "@/layouts/base-layout";
+
+import { getCollection } from "astro:content";
+
+const lastFeaturedCreation = await getCollection(
+  "creations",
+  ({ data }) => data.featured
+).then(
+  (featuredCreations) =>
+    featuredCreations.sort(
+      (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
+    )[0]
+);
 ---
 
 <BaseLayout title="NewLad Creations — Home">
@@ -13,7 +25,9 @@ import BaseLayout from "@/layouts/base-layout";
         web tools, etc.
       </p>
       <div class="flex gap-3">
-        <a href="/creations" class="px-4 py-2 rounded-lg bg-black text-white"
+        <a
+          href="/creations"
+          class="px-4 py-2 rounded-lg bg-black text-white hover:bg-slate-800 transition-colors"
           >Browse Creations</a
         >
         <a href="#about" class="px-4 py-2 rounded-lg border">Learn more</a>
@@ -21,15 +35,12 @@ import BaseLayout from "@/layouts/base-layout";
     </div>
     <div class="rounded-2xl border p-6">
       <p class="font-medium mb-2">
-        Featured: ADHD Task Planner (Printable PDF)
+        Featured: {lastFeaturedCreation.data.title}
       </p>
-      <ul class="list-disc pl-5 text-slate-700">
-        <li>Inline Task & Dates</li>
-        <li>Big Notes area</li>
-        <li>Clean, low-clutter layout</li>
-      </ul>
-      <a href="/creations#adhd-task-planner" class="mt-4 inline-block underline"
-        >See details →</a
+      <p class="text-slate-700">{lastFeaturedCreation.data.blurb}</p>
+      <a
+        href={`/creations/${lastFeaturedCreation.id}`}
+        class="mt-4 inline-block underline">See details →</a
       >
     </div>
   </section>
