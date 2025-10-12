@@ -3,15 +3,25 @@ import BaseLayout from "@/layouts/base-layout";
 
 import { getCollection } from "astro:content";
 
-const lastFeaturedCreation = await getCollection(
-  "creations",
-  ({ data }) => data.featured
-).then(
-  (featuredCreations) =>
-    featuredCreations.sort(
-      (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-    )[0]
+const creations = await getCollection("creations");
+
+const featuredCreations = creations.filter(
+  (creation) => creation.data.featured
 );
+
+const sortedCreations = creations.sort(
+  (creationA, creationB) =>
+    creationB.data.publishDate.getTime() - creationA.data.publishDate.getTime()
+);
+
+const featuredCreation =
+  featuredCreations.length > 0
+    ? featuredCreations.sort(
+        (creationA, creationB) =>
+          creationB.data.publishDate.getTime() -
+          creationA.data.publishDate.getTime()
+      )[0]
+    : sortedCreations[0];
 ---
 
 <BaseLayout title="NewLad Creations — Home">
@@ -35,11 +45,11 @@ const lastFeaturedCreation = await getCollection(
     </div>
     <div class="rounded-2xl border p-6">
       <p class="font-medium mb-2">
-        Featured: {lastFeaturedCreation.data.title}
+        Featured: {featuredCreation.data.title}
       </p>
-      <p class="text-slate-700">{lastFeaturedCreation.data.blurb}</p>
+      <p class="text-slate-700">{featuredCreation.data.blurb}</p>
       <a
-        href={`/creations/${lastFeaturedCreation.id}`}
+        href={`/creations/${featuredCreation.id}`}
         class="mt-4 inline-block underline">See details →</a
       >
     </div>
