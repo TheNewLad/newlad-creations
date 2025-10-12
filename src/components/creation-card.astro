@@ -18,10 +18,16 @@ const { creation } = Astro.props;
       ))
     }
   </div>
-  <div class="mt-4">
+  <div class="mt-4 flex gap-3">
+    <a
+      href={`/creations/${creation.id}`}
+      class="inline-block px-4 py-2 rounded-lg border border-slate-300 hover:border-slate-400 transition-colors"
+    >
+      View Details
+    </a>
     <a
       href={creation.data.ctaHref}
-      class="inline-block px-4 py-2 rounded-lg bg-black text-white"
+      class="inline-block px-4 py-2 rounded-lg bg-black text-white hover:bg-slate-800 transition-colors"
     >
       {creation.data.ctaLabel}
     </a>
