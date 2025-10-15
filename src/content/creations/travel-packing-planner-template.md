@@ -1,0 +1,77 @@
+---
+title: "How I Finally Stopped Forgetting Things When Packing"
+blurb: "After years of scrambling before every trip, I built an ADHD-friendly Notion system that actually helps me remember everything — without the chaos."
+ctaLabel: "Get the Template on Etsy"
+ctaHref: "https://www.etsy.com/listing/your-listing-link-here"
+tags: ["Notion", "ADHD", "Travel", "Productivity", "Digital Templates"]
+featured: true
+publishDate: 2025-10-15
+draft: false
+---
+
+Every time I traveled, I told myself I’d pack early — and every time, I didn’t.
+
+I’d wait until the last minute, scrambling around the house with a half-formed mental list and a growing sense of panic.  
+I *knew* what I needed to bring… or at least, I thought I did — until I got to my destination and realized I’d forgotten something essential.
+
+It was never the big stuff.  
+It was the *charger*, the *toothbrush*, the *medication*, or some new “must-have” item that hadn’t made it onto my old list yet.
+
+---
+
+## The Problem With Every Packing List I Tried
+
+For years, I’ve been iterating on different systems — checkboxes, databases, apps, spreadsheets — and none of them stuck.  
+They all had too many steps, too many buttons, and too many ways to get it wrong.
+
+Sometimes “packed” meant *not packed yet*.  
+Sometimes I’d check something off and forget what that checkmark even meant.  
+And depending on my mood or focus that day, it could all feel like too much.  
+So I’d stop using it — and the cycle would repeat itself.
+
+---
+
+## The System That Finally Worked
+
+After three years of tweaking, this Notion template is where I finally landed.
+
+It’s designed to keep the process simple and forgiving:
+- One board.
+- Clear stages.
+- Zero mental gymnastics.
+
+You add all your items once in **All Items View**, then walk through each phase:
+
+1. **Plan** what you’ll bring.  
+   - Tap **Need to Pack** to mark items you want to take.  
+   - Works great on mobile — no awkward drag-and-drop.
+2. **Pack** as you go.  
+   - In **Packing View**, hit **Pack** and watch it move to your *Destination Bag*.  
+   - That small progress hit keeps you going.
+3. **Repack** to come home.  
+   - Use **Coming Home View** and the **Repack** button to make sure nothing’s left behind.
+
+No confusion. No redundant checkboxes. Just a flow that matches how your brain naturally moves through tasks.
+
+---
+
+## Why It Works (Especially If You Have ADHD)
+
+- You always know what stage you’re in.  
+- Every button has one clear purpose.  
+- You don’t have to overthink what “packed” means.  
+- You get visual progress that feels rewarding instead of draining.  
+
+It turns a stressful task into a calm, guided process that actually *works* — no matter what your focus or energy looks like that day.
+
+---
+
+## Try It Yourself
+
+If you’ve ever found yourself pacing before a trip, wondering what you’ve forgotten — this might help more than you expect.
+
+[**Get the Template on Etsy →**](https://www.etsy.com/listing/your-listing-link-here)
+
+---
+
+*Made by NewLad Creations — simple systems for complicated brains.*
