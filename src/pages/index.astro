@@ -3,7 +3,10 @@ import BaseLayout from "@/layouts/base-layout";
 
 import { getCollection } from "astro:content";
 
-const creations = await getCollection("creations");
+const allCreations = await getCollection("creations");
+
+// Filter out drafts to match other pages
+const creations = allCreations.filter((creation) => !creation.data.draft);
 
 const featuredCreations = creations.filter(
   (creation) => creation.data.featured
