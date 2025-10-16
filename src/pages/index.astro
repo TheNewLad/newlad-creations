@@ -1,16 +1,92 @@
 ---
+import BaseLayout from "@/layouts/base-layout";
 
+import { getCollection } from "astro:content";
+
+const allCreations = await getCollection("creations");
+
+// Filter out drafts to match other pages
+const creations = allCreations.filter((creation) => !creation.data.draft);
+
+const featuredCreations = creations.filter(
+  (creation) => creation.data.featured
+);
+
+const sortedCreations = creations.sort(
+  (creationA, creationB) =>
+    creationB.data.publishDate.getTime() - creationA.data.publishDate.getTime()
+);
+
+const featuredCreation =
+  featuredCreations.length > 0
+    ? featuredCreations.sort(
+        (creationA, creationB) =>
+          creationB.data.publishDate.getTime() -
+          creationA.data.publishDate.getTime()
+      )[0]
+    : sortedCreations[0];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="NewLad Creations — Home">
+  <section class="grid gap-6 md:grid-cols-2 items-center">
+    <div class="space-y-4">
+      <h1 class="text-3xl md:text-5xl font-bold leading-tight">
+        Tools & templates that help ADHD-minds do.
+      </h1>
+      <p class="text-lg text-slate-700">
+        I build simple, low-friction systems for doing: Notion templates, small
+        web tools, etc.
+      </p>
+      <div class="flex gap-3">
+        <a
+          href="/creations"
+          class="px-4 py-2 rounded-lg bg-black text-white hover:bg-slate-800 transition-colors"
+          >Browse Creations</a
+        >
+        <a href="#about" class="px-4 py-2 rounded-lg border">Learn more</a>
+      </div>
+    </div>
+    <div class="rounded-2xl border p-6">
+      <p class="font-medium mb-2">
+        Featured: {featuredCreation.data.title}
+      </p>
+      <p class="text-slate-700">{featuredCreation.data.blurb}</p>
+      <a
+        href={`/creations/${featuredCreation.id}`}
+        class="mt-4 inline-block underline">See details →</a
+      >
+    </div>
+  </section>
+
+  <section id="about" class="mt-12 space-y-3 prose max-w-none">
+    <h2>About Me</h2>
+    <p>Hey there — thanks for taking the time to stop by and read this.</p>
+    <p>
+      My name is <strong>Karim</strong>, and I’ve been a software engineer since
+      2018, though I’ve been programming since 2011. I didn’t find out I had
+      <strong>ADHD</strong> until December 2023. Before that, I spent years wondering
+      why I struggled to focus, stay engaged, or keep up the way others seemed to.
+      I thought something was wrong with me — that I was just easily bored or not
+      trying hard enough.
+    </p>
+    <p>
+      To survive at work, I started building systems and writing detailed
+      documentation to help me stay organized and consistent. Over time, those
+      same habits spilled into my personal life — I began creating tools and
+      workflows to make sure I didn’t forget things and could manage my day more
+      smoothly.
+    </p>
+    <p>
+      When I finally received my diagnosis, it brought a huge sense of clarity.
+      Everything I had been building suddenly made sense. I realized I had been
+      creating not just for myself, but for people like me — people with ADHD
+      who just need the right systems in place to thrive.
+    </p>
+    <p>
+      Now, I focus on creating things that make life easier, more structured,
+      and a little bit calmer — whether you have ADHD or not. My goal is to help
+      people move through their day with less friction and more flow.
+    </p>
+    <p>Thanks again for being here.</p>
+  </section>
+</BaseLayout>

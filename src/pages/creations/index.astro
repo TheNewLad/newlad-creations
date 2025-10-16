@@ -1,0 +1,21 @@
+---
+import BaseLayout from "@/layouts/base-layout";
+import CreationCard from "@/components/creation-card";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+// Get all creations
+const allCreations = await getCollection("creations");
+
+// Filter out drafts and sort by publish date (newest first)
+// Note: Collection order is non-deterministic in Astro v5, so manual sorting is required
+const publishedCreations: CollectionEntry<"creations">[] = allCreations
+  .filter((creation) => !creation.data.draft)
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+---
+
+<BaseLayout title="NewLad — Creations">
+  <h1 class="text-3xl font-bold mb-6">Creations</h1>
+  <ul class="grid gap-6 md:grid-cols-2">
+    {publishedCreations.map((creation) => <CreationCard creation={creation} />)}
+  </ul>
+</BaseLayout>
