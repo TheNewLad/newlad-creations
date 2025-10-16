@@ -2,7 +2,7 @@
 title: "How I Finally Stopped Forgetting Things When Packing"
 blurb: "After years of scrambling before every trip, I built an ADHD-friendly Notion system that actually helps me remember everything — without the chaos."
 ctaLabel: "Get the Template on Etsy"
-ctaHref: "https://www.etsy.com/listing/your-listing-link-here"
+ctaHref: "https://www.etsy.com/listing/4387558724/ultimate-travel-packing-planner-adhd"
 tags: ["Notion", "ADHD", "Travel", "Productivity", "Digital Templates"]
 featured: true
 publishDate: 2025-10-15
@@ -70,7 +70,7 @@ It turns a stressful task into a calm, guided process that actually *works* — 
 
 If you’ve ever found yourself pacing before a trip, wondering what you’ve forgotten — this might help more than you expect.
 
-[**Get the Template on Etsy →**](https://www.etsy.com/listing/your-listing-link-here)
+[**Get the Template on Etsy →**](https://www.etsy.com/listing/4387558724/ultimate-travel-packing-planner-adhd)
 
 ---
 
