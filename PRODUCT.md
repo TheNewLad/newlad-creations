@@ -48,7 +48,7 @@ He has made vlogs, had a YouTube channel since 2006, and made two podcasts. He i
 currently exploring TikTok because a short brain dump is easier to turn into a
 30–90 second video than a heavily planned long-form piece. No publishing cadence
 is promised. Social account links remain unconfirmed. Karim selected email for
-contact and supplied `karim@newladcreations.com` for public use.
+contact and supplied `hey@newladcreations.com` for public use.
 
 ## Creations and Interests
 
@@ -120,10 +120,12 @@ blanket permission to publish every detail from a planning conversation.
 - Make sharing a short thought useful without requiring a polished case study.
 - Invite conversation without manufacturing success, authority, or a community.
 
+The homepage project marks use Home Assistant’s official logo, Fell For Love’s own
+logo, and the user-selected serif Y from Project Drift’s `public/brand/y-serif.png`.
+
 ## Open Decisions
 
-- Real project photos or screenshots to replace the labeled concept artwork;
-  the first version leads with home automation, Project Drift, and Fell for Love.
+- Real project photos or screenshots for future project stories.
 - How prominently to feature ADHD, if at all, and which personal topics to publish.
 - The role of products, sales, and external purchase links.
 - Social follow destinations and any later community home; email contact is confirmed.

@@ -99,18 +99,18 @@ components:
 
 NewLad Creations presents Karim through the things he makes: a bright, daytime studio with room for experiments, unfinished work, and short notes. The implemented homepage opens with a candid original color portrait, a clear introduction, and a direct path into three creations. White space, black type, and one plant-green thread keep the page personal and easy to enter.
 
-Material character comes from local concept-art plates, a cedar-and-stone visual temperature in the imagery, fine gray rules, and one handwritten Caveat accent. Interior creation and note pages keep the same light canvas and move into a centered reading column. Motion is brief and optional: one underline draws in and arrows shift slightly, with a reduced-motion fallback.
+Character comes from the original portrait, authentic project logos, fine gray rules, and one handwritten Caveat accent. Interior creation and note pages keep the same light canvas and move into a centered reading column. Motion is brief and optional: one underline draws in and arrows shift slightly, with a reduced-motion fallback.
 
 **Key Characteristics:**
 - Bright white studio canvas with black text and plant-green links.
-- Candid original portrait in a circle and optimized local image plates.
+- Candid original portrait in a circle and local project marks.
 - Kedebideri for display and body copy, with Caveat for short process marks.
 - Open desktop grids that become linear, touch-friendly sections on mobile.
 - Fine gray rules and whitespace provide structure; surfaces stay flat.
 
 ## Colors
 
-The palette is a white, black, and plant-green foundation with restrained gray-green utility tones; cedar and stone belong to the local image plates rather than the UI chrome.
+The palette is a white, black, and plant-green foundation with restrained gray-green utility tones. Home Assistant and Fell For Love keep their original brand colors; Project Drift uses its cream serif Y on its existing deep teal background (#084646).
 
 ### Primary
 - **Plant Green** (#284d20): The thread for navigation state, linked actions, arrows, underlines, and short handwritten annotations.
@@ -163,7 +163,7 @@ Between 701px and 1279px, the introduction remains two columns, the projects use
 
 ## Elevation & Depth
 
-This is a flat-by-default system. The source CSS defines no box shadows, gradients, or raised UI surfaces. Depth comes from white space, one-pixel cedar-gray rules, the tactile lighting in local concept-art plates, and the circular portrait. Links respond with a short arrow movement or color shift rather than a lift.
+This is a flat-by-default system. The source CSS defines no box shadows, gradients, or raised UI surfaces. Depth comes from white space, one-pixel cedar-gray rules, the project marks, and the circular portrait. Links respond with a short arrow movement or color shift rather than a lift.
 
 ### Named Rules
 
@@ -195,7 +195,7 @@ Navigation and CTAs retain link semantics. Primary CTAs have the sage-button tre
 - **States:** The arrow moves 4px over 180ms on hover. Focus uses a 2px plant-green outline with a 6px offset. Reduced motion removes the transition.
 
 ### Project Tiles
-- **Structure:** Each of the three selected creations pairs a local image plate with a title, short description, caption, and arrow link.
+- **Structure:** Each of the three selected creations pairs a local brand mark with a title, short description, and arrow link. Home automation uses the official Home Assistant mark, Fell For Love uses its live website logo, and Project Drift uses the user-selected `public/brand/y-serif.png` from its own repository, presented on its deep teal background. Preserve source geometry and colors; provenance is recorded in `src/images/logos/sources.json`.
 - **Desktop:** A three-column strip uses one-pixel right rules; the title link expands to the tile bounds while the arrow sits at the lower edge.
 - **Mobile:** Each tile becomes a 128px media column plus copy, with 24px vertical padding and a one-pixel bottom rule.
 - **Editorial marks:** Concept captions are muted and italic. Caveat marks “Testing” and “The story so far” in plant green with a short underline.
@@ -220,8 +220,8 @@ The `/notes` index inherits the Creations index: a 920px maximum column, a large
 
 ### Do:
 - **Do** keep the page on paper white with ink-black text and a plant-green interaction thread.
-- **Do** preserve the original color portrait as a circular image and keep local image plates optimized.
-- **Do** label concept artwork and game concept imagery so it reads as illustrative context rather than working hardware or a product screenshot.
+- **Do** preserve the original color portrait as a circular image and keep project marks crisp and proportional.
+- **Do** preserve Project Drift’s cream serif Y and deep teal brand colors; its “Testing” annotation describes the game’s current status.
 - **Do** use one-pixel cedar-gray rules, open spacing, and the responsive grid-to-linear rhythm to organize content.
 - **Do** keep the underline entrance and arrow movement optional, with the reduced-motion fallback intact.
 - **Do** retain the cube mark in the footer as a meaningful NewLad Creations identity element.

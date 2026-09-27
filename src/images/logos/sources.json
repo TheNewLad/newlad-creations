@@ -1,0 +1,20 @@
+{
+  "home-assistant.svg": {
+    "source": "https://github.com/home-assistant/assets/tree/master/logo",
+    "download": "https://raw.githubusercontent.com/home-assistant/assets/master/logo/home-assistant-logo.zip",
+    "archive_member": "home-assistant-logomark-color-on-light.svg",
+    "owner": "Open Home Foundation",
+    "guidelines": "https://design.home-assistant.io/#brand/logo",
+    "modifications": "None. Original colors and geometry preserved."
+  },
+  "fell-for-love.svg": {
+    "source": "https://fellforlove.com/",
+    "download": "https://fellforlove.com/_astro/fell-for-love-icon.CSkt6Z0-_j3OI6.svg",
+    "modifications": "None. Original colors and geometry preserved."
+  },
+  "project-drift.png": {
+    "source": "User-selected project-drift/public/brand/y-serif.png",
+    "modifications": "None. Original transparent cream mark preserved.",
+    "presentation": "CSS deep teal background #084646 from Project Drift src/styles.css; optimized PNG sizes supplied by Astro."
+  }
+}

@@ -12,11 +12,11 @@ implementation after approving Open Studio and the original portrait's circle
 crop. Preserve all existing creation URLs and the packing-template story.
 
 Visitors meet Karim through his real work and short reflections. Primary action:
-explore a creation. Three initial stories use confirmed facts; illustrations stay
-labeled as concept artwork. Short notes are distilled from Karim's supplied
+explore a creation. Three initial stories use confirmed facts. The project row uses local brand marks,
+including the user-selected serif Y from Project Drift. Short notes are distilled from Karim's supplied
 thoughts, without invented dates, activity, or claims. Personal health and therapy
 details are outside the public copy. Karim confirmed the public contact address
-`karim@newladcreations.com`; Say hello uses a mailto link.
+`hey@newladcreations.com`; Say hello uses a mailto link.
 
 Approved comp: `.impeccable/mocks/decision/open-studio-original-circle-v1.png`.
 Crop and placement metadata sit beside it. The user approved the visual direction
@@ -28,7 +28,8 @@ THESIS: Meet the person through the things he makes. A personal introduction lea
 straight into specific projects, with room for unfinished work and brief notes.
 
 OWN-WORLD: Bright white, black type, plant-green links, restrained cedar/stone
-tones in tactile project imagery. Open spacing, fine rules, circular portrait.
+tones in the original visual direction. The requested project logos keep their
+original brand colors; Drift uses its cream serif Y on deep teal. Open spacing, fine rules, circular portrait.
 The light scene is a daytime studio visit, matching the approved photograph.
 
 STORY: Meet Karim, recognize a shared interest, read a project or thought, and
@@ -48,7 +49,11 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 ## Implementation notes
 
 Use semantic text and links, local optimized images, and self-hosted fonts.
-The depicted word cards have real HTML labels. Concept artwork is illustrative,
-not a photograph of working hardware or a product screenshot. On mobile, use a
+Karim requested the official Home Assistant logo and the logo from fellforlove.com
+in place of concept artwork. Project Drift uses the user-selected
+`project-drift/public/brand/y-serif.png`, with its original cream color on
+Project Drift’s existing deep teal background. These marks supersede the project plates in the approved
+comp; all other composition choices remain. Logo provenance is recorded in
+`src/images/logos/sources.json`. On mobile, use a
 linear introduction, portrait, project list, notes, and personal story. Preserve
 the existing cube mark in the footer. Keep the existing Astro/MDX content workflow.

@@ -31,7 +31,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         <a href="/creations" aria-current={Astro.url.pathname.startsWith("/creations") ? "page" : undefined}>Creations</a>
         <a href="/notes" aria-current={Astro.url.pathname.replace(/\/$/, "") === "/notes" ? "page" : Astro.url.pathname.startsWith("/notes/") ? "location" : undefined}>Notes</a>
         <a href="/#about">About</a>
-        <a class="cta-link hello-link" href="mailto:karim@newladcreations.com">Say hello</a>
+        <a class="cta-link hello-link" href="mailto:hey@newladcreations.com">Say hello</a>
       </nav>
     </header>
     <main id="main" class:list={["page", { "home-page": home, "interior-page": !home }]} tabindex="-1"><slot /></main>
