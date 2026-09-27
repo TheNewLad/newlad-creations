@@ -1,0 +1,34 @@
+{
+  "method": "Local Pillow composition; no AI regeneration",
+  "sourcePhoto": "src/images/karim-portrait.jpg",
+  "suppliedFilename": "MTB_2394-Retouched-2.jpg",
+  "basePreview": ".impeccable/mocks/decision/open-studio-portrait-v1.png",
+  "cropBoxSourcePixels": [
+    1100,
+    80,
+    2700,
+    1680
+  ],
+  "heroBoxPreviewPixels": [
+    672,
+    76,
+    1536,
+    584
+  ],
+  "portraitBoxPreviewPixels": [
+    880,
+    104,
+    1328,
+    552
+  ],
+  "shape": "circle",
+  "cornerRadiusPreviewPixels": 224,
+  "changes": [
+    "Use original supplied studio portrait",
+    "Apply circle crop with the same size and placement as the outdoor comparison"
+  ],
+  "approved": true,
+  "directionSelected": true,
+  "approvalScope": "Original studio portrait with the displayed circular crop and placement in Open Studio",
+  "approvalEvidence": "User: i like the circle"
+}

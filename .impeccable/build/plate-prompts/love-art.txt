@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: isolated website card art plate
+Input image: Image 1 is a visual reference for the approved love-art crop's composition, proportions, offsets, bubble shapes, materials, heart placement, and lighting only.
+Scene/backdrop: flat pure white opaque background filling the entire frame.
+Subject: two offset tactile 3D message bubbles with small tails: an upper white bubble and a lower pale sage-green bubble; each bubble contains only a few muted gray horizontal inset message lines, and the lower bubble has one small muted green heart near its right side.
+Style/medium: refined minimal 3D interface-object illustration with softly rounded corners, realistic shallow depth, subtle ambient occlusion, and a quiet editorial website-art direction.
+Composition/framing: preserve the reference crop's measured proportions, offset, overlap, bubble silhouettes, line placement, and small-heart position; single isolated bubble cluster centered in the frame with generous pure-white breathing room; landscape-friendly card plate.
+Lighting/mood: soft diffuse studio light from above-left, restrained tactile shadows, calm and warm.
+Color palette: clean white upper bubble, pale sage lower bubble, muted warm-gray inset lines, muted green heart, pure white background.
+Materials/textures: smooth matte ceramic-like surfaces, softly beveled edges, gentle contact shadows, subtle dimensional tails.
+Text (verbatim): none.
+Constraints: opaque output; inset marks must be short horizontal bars only, with no readable or pseudo-readable text; include exactly one small green heart; preserve the approved reference's two-bubble offset composition.
+Avoid: words, letters, numbers, labels, logos, watermark, extra hearts, emojis, speech text, colored background, transparent background, people, phones, UI chrome, harsh reflections.

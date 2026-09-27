@@ -1,0 +1,7 @@
+{
+  "source": "Text-only generation using approved Image API fallback",
+  "model": "gpt-image-2",
+  "promptFile": ".impeccable/build/plate-prompts/love-art-text-only.txt",
+  "original": "output/imagegen/open-studio-v1/love-art.png",
+  "use": "Illustrative concept artwork, not evidence of project hardware or screenshots"
+}

@@ -3,19 +3,61 @@ import BaseLayout from "@/layouts/base-layout";
 import CreationCard from "@/components/creation-card";
 import { getCollection, type CollectionEntry } from "astro:content";
 
-// Get all creations
 const allCreations = await getCollection("creations");
-
-// Filter out drafts and sort by publish date (newest first)
-// Note: Collection order is non-deterministic in Astro v5, so manual sorting is required
 const publishedCreations: CollectionEntry<"creations">[] = allCreations
   .filter((creation) => !creation.data.draft)
   .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
 ---
 
-<BaseLayout title="NewLad — Creations">
-  <h1 class="text-3xl font-bold mb-6">Creations</h1>
-  <ul class="grid gap-6 md:grid-cols-2">
-    {publishedCreations.map((creation) => <CreationCard creation={creation} />)}
-  </ul>
+<BaseLayout
+  title="Creations — NewLad Creations"
+  description="Projects, experiments, and practical things Karim Dallas-Newell has built."
+>
+  <section class="creations-index" aria-labelledby="creations-title">
+    <header class="creations-heading">
+      <h1 id="creations-title">Creations</h1>
+      <p>Projects, experiments, and the occasional detour.</p>
+    </header>
+
+    <ul class="creation-list">
+      {publishedCreations.map((creation) => <CreationCard creation={creation} />)}
+    </ul>
+  </section>
 </BaseLayout>
+
+<style>
+  .creations-index {
+    max-width: 920px;
+    margin-inline: auto;
+  }
+
+  .creations-heading {
+    max-width: 620px;
+    padding-bottom: 52px;
+  }
+
+  .creations-heading h1 {
+    font-size: clamp(42px, 5.4vw, 72px);
+    font-weight: 600;
+  }
+
+  .creations-heading p {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: clamp(20px, 2.1vw, 26px);
+    line-height: 1.4;
+  }
+
+  .creation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  @media (max-width: 700px) {
+    .creations-heading {
+      padding-bottom: 36px;
+    }
+  }
+</style>

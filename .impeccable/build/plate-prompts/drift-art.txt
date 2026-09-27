@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: isolated website card art plate
+Input image: Image 1 is a visual reference for the approved drift-art crop's composition, proportions, card placement, materials, connector-line paths, and lighting only.
+Scene/backdrop: flat pure white opaque background filling the entire frame.
+Subject: three tactile blank 3D cards arranged like the reference: two smaller warm off-white cards offset across the upper area and one wider pale sage-green answer card centered below; connect each upper card to the lower card with a fine dotted green curved line.
+Style/medium: refined minimal 3D paper-card illustration with softly rounded corners, small bevels, realistic shallow depth, subtle ambient occlusion, and a quiet editorial website-art direction.
+Composition/framing: preserve the reference crop's measured proportions, spacing, offsets, overlap, and connector-line layout; single isolated card cluster centered in the frame with generous pure-white breathing room; landscape-friendly card plate.
+Lighting/mood: soft diffuse studio light from above-left, restrained tactile shadows, calm and precise.
+Color palette: warm off-white upper cards, pale sage-green lower card, muted green dotted connector lines, pure white background.
+Materials/textures: smooth matte coated-card surfaces, subtle paper-like softness, gentle edge bevels, faint contact shadows.
+Text (verbatim): none.
+Constraints: opaque output; ALL THREE CARDS MUST BE COMPLETELY BLANK and reserved for HTML overlay; preserve the two-upper-one-lower arrangement and both dotted green connections; no semantic content inside the artwork.
+Avoid: any words, letters, numbers, labels, symbols, icons, marks, logos, watermark, text-like glyphs, extra cards, people, colored background, transparent background, arrows, badges, decorative patterns.

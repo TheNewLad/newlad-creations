@@ -1,0 +1,17 @@
+---
+import BaseLayout from "./base-layout.astro";
+import Arrow from "../components/arrow.astro";
+interface Props { frontmatter: { title: string; description: string; }; }
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={`${frontmatter.title} — NewLad Creations`} description={frontmatter.description}>
+  <article class="reading">
+    <a class="text-link notes-back" href="/notes"><Arrow /> Back to the notes</a>
+    <header><h1>{frontmatter.title}</h1><p class="description">{frontmatter.description}</p></header>
+    <div class="prose"><slot /></div>
+    <footer class="reading-footer"><p>Something here sound familiar?</p><a class="text-link cta-link" href="mailto:karim@newladcreations.com">Let’s talk about it <Arrow /></a></footer>
+  </article>
+</BaseLayout>
+<style>
+  .notes-back :global(.arrow) { transform: rotate(180deg); }
+</style>

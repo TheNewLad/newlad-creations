@@ -1,0 +1,453 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-09-27T18:26:35.054Z",
+  "comp": ".impeccable/mocks/decision/open-studio-original-circle-v1.png",
+  "direction": null,
+  "breakpoint": "1536x1024",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "skipped",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-09-27T18:26:35.054Z",
+          "text": "started with an approved comp; the comp round happened before this state (surface round or manual)"
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:26:35.054Z",
+      "closedAt": "2026-09-27T18:28:22.142Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "41 regions, 4 plates, 26 text regions measured",
+        "at": "2026-09-27T18:28:22.142Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:28:22.142Z",
+      "closedAt": "2026-09-27T18:32:12.959Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "4/4 plates",
+        "at": "2026-09-27T18:32:12.959Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:32:12.959Z",
+      "closedAt": "2026-09-27T18:36:49.615Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "hero 91% (match)",
+        "score": 0.9113,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/karim/codebase/newlad-creations/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "home-art drift 52%",
+          "drift-art drift 58%",
+          "love-art drift 60%"
+        ],
+        "worstIds": [
+          "home-art",
+          "drift-art",
+          "love-art"
+        ],
+        "worstCrops": [
+          {
+            "id": "home-art",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5166,
+              "structure": 0.5437,
+              "color": 0.6743,
+              "colorIntersection": 0.4943,
+              "paletteMatch": 0.7713,
+              "detail": 0.4311,
+              "detailRaw": 0.4624,
+              "detailAdded": 0.0625,
+              "bands": 0.6036
+            },
+            "file": ".impeccable/review/diff/hero/regions/home-art.png"
+          },
+          {
+            "id": "drift-art",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5789,
+              "structure": 0.5955,
+              "color": 0.8345,
+              "colorIntersection": 0.737,
+              "paletteMatch": 0.8871,
+              "detail": 0.4514,
+              "detailRaw": 0.4878,
+              "detailAdded": 0.0729,
+              "bands": 0.7486
+            },
+            "file": ".impeccable/review/diff/hero/regions/drift-art.png"
+          },
+          {
+            "id": "love-art",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.5952,
+              "structure": 0.6549,
+              "color": 0.7609,
+              "colorIntersection": 0.7496,
+              "paletteMatch": 0.767,
+              "detail": 0.4851,
+              "detailRaw": 0.5216,
+              "detailAdded": 0.0729,
+              "bands": 0.7354
+            },
+            "file": ".impeccable/review/diff/hero/regions/love-art.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 8 readings:",
+          "  text drift-description: letter-spacing is wider than the comp's (gap 0.131 vs 0.080 of the cap height); set letter-spacing to close it by about 1px",
+          "  text love-status: letter-spacing is wider than the comp's (gap 0.177 vs 0.066 of the cap height); set letter-spacing to close it by about 2px",
+          "  text note-one-title: letter-spacing is wider than the comp's (gap 0.148 vs 0.077 of the cap height); set letter-spacing to close it by about 1px",
+          "  text note-one-caption: letter-spacing is wider than the comp's (gap 0.092 vs 0.031 of the cap height); set letter-spacing to close it by about 1px",
+          "  text note-two-description: letter-spacing is wider than the comp's (gap 0.150 vs 0.084 of the cap height); set letter-spacing to close it by about 1px",
+          "  text note-two-caption: letter-spacing is wider than the comp's (gap 0.092 vs 0.031 of the cap height); set letter-spacing to close it by about 1px",
+          "  text note-three-description: letter-spacing is wider than the comp's (gap 0.113 vs 0.057 of the cap height); set letter-spacing to close it by about 1px",
+          "  text note-three-caption: letter-spacing is wider than the comp's (gap 0.091 vs 0.030 of the cap height); set letter-spacing to close it by about 1px"
+        ],
+        "regionVerdicts": {
+          "brand": "match",
+          "navigation": "match",
+          "headline": "drift",
+          "underline": "match",
+          "intro": "drift",
+          "intro-second": "drift",
+          "explore": "drift",
+          "portrait": "match",
+          "home-art": "drift",
+          "home-title": "match",
+          "home-description": "match",
+          "home-caption": "drift",
+          "home-arrow": "match",
+          "project-dividers": "drift",
+          "drift-art": "drift",
+          "drift-title": "drift",
+          "drift-description": "drift",
+          "drift-status": "match",
+          "drift-caption": "drift",
+          "drift-arrow": "match",
+          "love-divider": "drift",
+          "love-art": "drift",
+          "love-title": "drift",
+          "love-description": "drift",
+          "love-status": "drift",
+          "love-caption": "drift",
+          "love-arrow": "match",
+          "notes-rule": "match",
+          "notes-title": "drift",
+          "notes-intro": "drift",
+          "note-one-title": "drift",
+          "note-one-description": "drift",
+          "note-one-caption": "drift",
+          "notes-divider-one": "match",
+          "note-two-title": "drift",
+          "note-two-description": "drift",
+          "note-two-caption": "drift",
+          "notes-divider-two": "match",
+          "note-three-title": "drift",
+          "note-three-description": "drift",
+          "note-three-caption": "drift"
+        },
+        "at": "2026-09-27T18:36:49.615Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text home-caption: cap height 13px in the build, 10.3px in the comp (+26%); set font-size so the cap height renders at 10.3px": 1,
+        "text intro-second: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "text intro-second: ink is #b1b1b0 in the build, #0e0e0e in the comp; use the comp's colour": 1,
+        "text intro: cap height 12.2px in the build, 18px in the comp (-32%); set font-size so the cap height renders at 18px": 1,
+        "text intro-second: letter-spacing is wider than the comp's (gap 0.203 vs 0.121 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text home-description: letter-spacing is wider than the comp's (gap 0.148 vs 0.077 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text drift-status: cap height 2.2px in the build, 14.9px in the comp (-85%); set font-size so the cap height renders at 14.9px": 1,
+        "text note-one-caption: letter-spacing is wider than the comp's (gap 0.079 vs 0.031 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-two-title: letter-spacing is wider than the comp's (gap 0.186 vs 0.115 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-two-caption: letter-spacing is wider than the comp's (gap 0.092 vs 0.031 of the cap height); set letter-spacing to close it by about 1px": 2,
+        "text note-three-description: letter-spacing is wider than the comp's (gap 0.113 vs 0.057 of the cap height); set letter-spacing to close it by about 1px": 2,
+        "text note-three-caption: letter-spacing is wider than the comp's (gap 0.092 vs 0.030 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text intro: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "text drift-description: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 1,
+        "text intro-second: the face renders 54% heavier than the comp's (ink density 0.70 vs 0.46); drop a weight step or use the ranked face": 1,
+        "control explore: its rule sits 11px into the box in the comp and 1px in the build (-10px), so the strip is shorter than the comp's; match the height, not only the position": 1,
+        "text drift-description: letter-spacing is wider than the comp's (gap 0.131 vs 0.080 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text love-status: letter-spacing is wider than the comp's (gap 0.177 vs 0.066 of the cap height); set letter-spacing to close it by about 2px": 1,
+        "text note-one-title: letter-spacing is wider than the comp's (gap 0.148 vs 0.077 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-one-caption: letter-spacing is wider than the comp's (gap 0.092 vs 0.031 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-two-description: letter-spacing is wider than the comp's (gap 0.150 vs 0.084 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-three-caption: letter-spacing is wider than the comp's (gap 0.091 vs 0.030 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text note-one-description: the face renders 27% lighter than the comp's (ink density 0.51 vs 0.69); raise a weight step or use the ranked face": 1
+      },
+      "records": 1,
+      "history": [
+        {
+          "at": "2026-09-27T18:34:07.918Z",
+          "score": 0.5718,
+          "worstIds": [
+            "home-art",
+            "portrait",
+            "love-art"
+          ],
+          "regionVerdicts": {
+            "brand": "missing",
+            "navigation": "missing",
+            "headline": "missing",
+            "underline": "missing",
+            "intro": "missing",
+            "intro-second": "missing",
+            "explore": "missing",
+            "portrait": "missing",
+            "home-art": "drift",
+            "home-title": "missing",
+            "home-description": "missing",
+            "home-caption": "drift",
+            "home-arrow": "missing",
+            "project-dividers": "missing",
+            "drift-art": "missing",
+            "drift-title": "missing",
+            "drift-description": "missing",
+            "drift-status": "missing",
+            "drift-caption": "missing",
+            "drift-arrow": "missing",
+            "love-divider": "missing",
+            "love-art": "missing",
+            "love-title": "missing",
+            "love-description": "missing",
+            "love-status": "missing",
+            "love-caption": "missing",
+            "love-arrow": "missing",
+            "notes-rule": "missing",
+            "notes-title": "missing",
+            "notes-intro": "missing",
+            "note-one-title": "missing",
+            "note-one-description": "missing",
+            "note-one-caption": "drift",
+            "notes-divider-one": "missing",
+            "note-two-title": "missing",
+            "note-two-description": "missing",
+            "note-two-caption": "drift",
+            "notes-divider-two": "missing",
+            "note-three-title": "missing",
+            "note-three-description": "missing",
+            "note-three-caption": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-27T18:35:30.025Z",
+          "score": 0.8991,
+          "worstIds": [
+            "underline",
+            "explore",
+            "intro-second"
+          ],
+          "regionVerdicts": {
+            "brand": "match",
+            "navigation": "match",
+            "headline": "drift",
+            "underline": "missing",
+            "intro": "contradicted",
+            "intro-second": "contradicted",
+            "explore": "contradicted",
+            "portrait": "match",
+            "home-art": "drift",
+            "home-title": "drift",
+            "home-description": "match",
+            "home-caption": "drift",
+            "home-arrow": "match",
+            "project-dividers": "drift",
+            "drift-art": "drift",
+            "drift-title": "match",
+            "drift-description": "drift",
+            "drift-status": "missing",
+            "drift-caption": "drift",
+            "drift-arrow": "match",
+            "love-divider": "drift",
+            "love-art": "drift",
+            "love-title": "drift",
+            "love-description": "drift",
+            "love-status": "drift",
+            "love-caption": "drift",
+            "love-arrow": "match",
+            "notes-rule": "match",
+            "notes-title": "drift",
+            "notes-intro": "missing",
+            "note-one-title": "drift",
+            "note-one-description": "drift",
+            "note-one-caption": "drift",
+            "notes-divider-one": "missing",
+            "note-two-title": "drift",
+            "note-two-description": "drift",
+            "note-two-caption": "drift",
+            "notes-divider-two": "missing",
+            "note-three-title": "drift",
+            "note-three-description": "drift",
+            "note-three-caption": "drift"
+          },
+          "artifactHash": null
+        },
+        {
+          "at": "2026-09-27T18:36:49.615Z",
+          "score": 0.9113,
+          "worstIds": [
+            "home-art",
+            "drift-art",
+            "love-art"
+          ],
+          "regionVerdicts": {
+            "brand": "match",
+            "navigation": "match",
+            "headline": "drift",
+            "underline": "match",
+            "intro": "drift",
+            "intro-second": "drift",
+            "explore": "drift",
+            "portrait": "match",
+            "home-art": "drift",
+            "home-title": "match",
+            "home-description": "match",
+            "home-caption": "drift",
+            "home-arrow": "match",
+            "project-dividers": "drift",
+            "drift-art": "drift",
+            "drift-title": "drift",
+            "drift-description": "drift",
+            "drift-status": "match",
+            "drift-caption": "drift",
+            "drift-arrow": "match",
+            "love-divider": "drift",
+            "love-art": "drift",
+            "love-title": "drift",
+            "love-description": "drift",
+            "love-status": "drift",
+            "love-caption": "drift",
+            "love-arrow": "match",
+            "notes-rule": "match",
+            "notes-title": "drift",
+            "notes-intro": "drift",
+            "note-one-title": "drift",
+            "note-one-description": "drift",
+            "note-one-caption": "drift",
+            "notes-divider-one": "match",
+            "note-two-title": "drift",
+            "note-two-description": "drift",
+            "note-two-caption": "drift",
+            "notes-divider-two": "match",
+            "note-three-title": "drift",
+            "note-three-description": "drift",
+            "note-three-caption": "drift"
+          },
+          "artifactHash": null
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:36:49.615Z",
+      "closedAt": "2026-09-27T18:37:25.524Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-27T18:37:25.524Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:37:25.524Z",
+      "closedAt": "2026-09-27T18:37:25.825Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-27T18:37:25.825Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:37:25.825Z",
+      "closedAt": "2026-09-27T18:42:06.261Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "desktop 90% (match)",
+        "score": 0.9022,
+        "sideBySide": "/Users/karim/codebase/newlad-creations/.impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-09-27T18:42:06.261Z"
+      },
+      "forced": null
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-09-27T18:42:06.261Z",
+      "closedAt": "2026-09-27T18:46:42.782Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-09-27T18:46:42.782Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {
+    "portrait": {
+      "status": "ok",
+      "score": 0.4637,
+      "size": "1984x1587"
+    },
+    "home-art": {
+      "status": "ok",
+      "score": 0.5467,
+      "size": "1152x1024"
+    },
+    "drift-art": {
+      "status": "ok",
+      "score": 0.4224,
+      "size": "1152x1024"
+    },
+    "love-art": {
+      "status": "ok",
+      "score": 0.5513,
+      "size": "1152x864"
+    }
+  }
+}

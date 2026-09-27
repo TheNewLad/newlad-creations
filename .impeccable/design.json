@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T13:48:21-05:00",
+  "title": "Design System: NewLad Creations",
+  "extensions": {
+    "colorMeta": {
+      "plant-green": {
+        "role": "primary",
+        "displayName": "Plant Green",
+        "canonical": "#284d20",
+        "tonalRamp": [
+          "oklch(18% 0.06 135)",
+          "oklch(28% 0.075 135)",
+          "oklch(38% 0.09 135)",
+          "oklch(48% 0.09 135)",
+          "oklch(58% 0.085 135)",
+          "oklch(68% 0.075 135)",
+          "oklch(80% 0.06 135)",
+          "oklch(92% 0.04 135)"
+        ]
+      },
+      "plant-green-deep": {
+        "role": "primary",
+        "displayName": "Plant Green Deep",
+        "canonical": "#183714",
+        "tonalRamp": [
+          "oklch(15% 0.05 135)",
+          "oklch(25% 0.06 135)",
+          "oklch(35% 0.07 135)",
+          "oklch(45% 0.07 135)",
+          "oklch(55% 0.065 135)",
+          "oklch(65% 0.055 135)",
+          "oklch(78% 0.045 135)",
+          "oklch(91% 0.03 135)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#1b1c1a",
+          "#383a36",
+          "#555852",
+          "#72766d",
+          "#92968d",
+          "#b0b4ac",
+          "#d0d3cc",
+          "#ffffff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#141614",
+        "tonalRamp": [
+          "oklch(15% 0.01 145)",
+          "oklch(27% 0.01 145)",
+          "oklch(39% 0.01 145)",
+          "oklch(51% 0.01 145)",
+          "oklch(63% 0.01 145)",
+          "oklch(74% 0.01 145)",
+          "oklch(85% 0.01 145)",
+          "oklch(95% 0.005 145)"
+        ]
+      },
+      "muted-cedar-gray": {
+        "role": "neutral",
+        "displayName": "Muted Cedar Gray",
+        "canonical": "#62685f",
+        "tonalRamp": [
+          "oklch(15% 0.025 130)",
+          "oklch(27% 0.03 130)",
+          "oklch(39% 0.03 130)",
+          "oklch(51% 0.03 130)",
+          "oklch(63% 0.03 130)",
+          "oklch(74% 0.025 130)",
+          "oklch(85% 0.02 130)",
+          "oklch(95% 0.01 130)"
+        ]
+      },
+      "cedar-line": {
+        "role": "neutral",
+        "displayName": "Cedar Line",
+        "canonical": "#c9cec5",
+        "tonalRamp": [
+          "oklch(15% 0.02 130)",
+          "oklch(27% 0.025 130)",
+          "oklch(39% 0.025 130)",
+          "oklch(51% 0.025 130)",
+          "oklch(63% 0.025 130)",
+          "oklch(74% 0.02 130)",
+          "oklch(85% 0.018 130)",
+          "oklch(95% 0.01 130)"
+        ]
+      },
+      "soft-paper": {
+        "role": "neutral",
+        "displayName": "Soft Paper",
+        "canonical": "#f5f6f2",
+        "tonalRamp": [
+          "oklch(15% 0.01 120)",
+          "oklch(27% 0.012 120)",
+          "oklch(39% 0.012 120)",
+          "oklch(51% 0.012 120)",
+          "oklch(63% 0.012 120)",
+          "oklch(74% 0.01 120)",
+          "oklch(85% 0.008 120)",
+          "oklch(95% 0.005 120)"
+        ]
+      },
+      "selection-green": {
+        "role": "tertiary",
+        "displayName": "Selection Green",
+        "canonical": "#dce6d4",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.04 125)",
+          "oklch(39% 0.045 125)",
+          "oklch(51% 0.05 125)",
+          "oklch(63% 0.05 125)",
+          "oklch(74% 0.045 125)",
+          "oklch(85% 0.04 125)",
+          "oklch(95% 0.025 125)"
+        ]
+      },
+      "scrollbar-olive": {
+        "role": "neutral",
+        "displayName": "Scrollbar Olive",
+        "canonical": "#8f9c87",
+        "tonalRamp": [
+          "oklch(15% 0.035 125)",
+          "oklch(27% 0.04 125)",
+          "oklch(39% 0.045 125)",
+          "oklch(51% 0.05 125)",
+          "oklch(63% 0.05 125)",
+          "oklch(74% 0.045 125)",
+          "oklch(85% 0.04 125)",
+          "oklch(95% 0.025 125)"
+        ]
+      },
+      "cta-sage": {
+        "role": "primary",
+        "displayName": "CTA Sage",
+        "canonical": "#687b61",
+        "tonalRamp": [
+          "oklch(15% 0.04 135)",
+          "oklch(27% 0.04 135)",
+          "oklch(39% 0.04 135)",
+          "oklch(51% 0.04 135)",
+          "oklch(63% 0.04 135)",
+          "oklch(74% 0.04 135)",
+          "oklch(85% 0.04 135)",
+          "oklch(95% 0.04 135)"
+        ]
+      },
+      "cta-sage-deep": {
+        "role": "primary",
+        "displayName": "CTA Sage Deep",
+        "canonical": "#576a50",
+        "tonalRamp": [
+          "oklch(15% 0.04 135)",
+          "oklch(27% 0.04 135)",
+          "oklch(39% 0.04 135)",
+          "oklch(51% 0.04 135)",
+          "oklch(63% 0.04 135)",
+          "oklch(74% 0.04 135)",
+          "oklch(85% 0.04 135)",
+          "oklch(95% 0.04 135)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Kedebideri Display",
+        "purpose": "Homepage greeting and the primary personal introduction."
+      },
+      "headline": {
+        "displayName": "Kedebideri Headline",
+        "purpose": "Section headings and larger interior titles."
+      },
+      "title": {
+        "displayName": "Kedebideri Title",
+        "purpose": "Project names and compact feature headings."
+      },
+      "body": {
+        "displayName": "Kedebideri Body",
+        "purpose": "Navigation, supporting copy, notes, and reading text."
+      },
+      "label": {
+        "displayName": "Kedebideri Label",
+        "purpose": "Captions, tags, and muted utility links."
+      },
+      "handwritten": {
+        "displayName": "Caveat Handwritten",
+        "purpose": "Short process annotations beside project stories."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "underline-entrance",
+        "value": "700ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Draws the homepage underline once when the introduction enters."
+      },
+      {
+        "name": "arrow-shift",
+        "value": "180ms ease",
+        "purpose": "Moves linked arrows 4px on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Removes transitions and the underline animation when the user requests reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "700px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1535px"
+      },
+      {
+        "name": "home-stacked-media",
+        "value": "1279px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "primary-navigation",
+      "description": "The wordmark and green-thread navigation used across every page.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/creations\">Creations</a><a href=\"/notes\">Notes</a><a href=\"/#about\">About</a><a class=\"ds-nav-hello\" href=\"mailto:karim@newladcreations.com\">Say hello</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: clamp(28px, 4.2vw, 66px); font-family: var(--font-body); font-size: 18px; } .ds-nav a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; justify-content: center; color: var(--ink); text-decoration: none; text-underline-offset: 6px; } .ds-nav a:hover, .ds-nav a:focus-visible, .ds-nav a[aria-current] { color: var(--green); text-decoration: underline; } .ds-nav .ds-nav-hello { color: var(--green); text-decoration: underline; text-decoration-thickness: 1px; } .ds-nav a:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 2px; } @media (max-width: 700px) { .ds-nav { width: 100%; justify-content: space-between; gap: 12px; font-size: 16px; } } .ds-nav .ds-nav-hello { padding: 10px 20px; min-height: 48px; border-radius: 4px; background: var(--sage); color: var(--paper); font-weight: 500; line-height: 1.4; text-decoration: underline; text-underline-offset: 4px; } .ds-nav .ds-nav-hello:hover, .ds-nav .ds-nav-hello:active { color: var(--paper); background: var(--sage-hover); } @media (max-width: 700px) { .ds-nav .ds-nav-hello { min-height: 44px; padding: 8px 12px; } }"
+    },
+    {
+      "name": "Accent Link",
+      "kind": "custom",
+      "refersTo": "accent-link",
+      "description": "A green underlined action with the shared inline arrow language.",
+      "html": "<a class=\"ds-accent-link\" href=\"#creations\">Explore the creations <svg class=\"ds-accent-arrow\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.35\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" /></svg></a>",
+      "css": ".ds-accent-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--green); font-family: var(--font-body); font-size: 18px; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9px; transition: color 180ms ease; } .ds-accent-arrow { flex: none; transition: transform 180ms ease; } .ds-accent-link:hover { color: var(--green-hover); } .ds-accent-link:hover .ds-accent-arrow, .ds-accent-link:focus-visible .ds-accent-arrow { transform: translateX(4px); } .ds-accent-link:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 2px; } @media (prefers-reduced-motion: reduce) { .ds-accent-link, .ds-accent-arrow { transition: none; } }"
+    },
+    {
+      "name": "Project Tile",
+      "kind": "card",
+      "refersTo": "project-title",
+      "description": "A flat creation preview combining a local image plate, title, story blurb, and arrow.",
+      "html": "<article class=\"ds-project\"><div class=\"ds-project-media\" aria-hidden=\"true\"><span class=\"ds-project-plate\"></span></div><div class=\"ds-project-copy\"><h2><a href=\"/creations/project-drift\">Project Drift <svg class=\"ds-project-arrow\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.35\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" /></svg></a></h2><p>A word-association game I’m testing.</p><span class=\"ds-project-note\">Testing</span></div></article>",
+      "css": ".ds-project { position: relative; display: grid; grid-template-columns: 47% 1fr; gap: 20px; min-height: 192px; align-items: start; padding: 0 32px; border-right: 1px solid var(--rule); font-family: var(--font-body); } .ds-project-media { display: grid; place-items: center; width: 100%; height: 165px; background: var(--soft); } .ds-project-plate { display: block; width: 72%; height: 58%; border: 1px solid var(--rule); background: var(--paper); } .ds-project-copy { min-width: 0; padding-top: 5px; } .ds-project h2 { margin: 0; color: var(--ink); font-size: 30px; line-height: 1.1; font-weight: 400; letter-spacing: -.025em; } .ds-project h2 a { color: inherit; text-decoration: none; } .ds-project h2 a:hover, .ds-project h2 a:focus-visible { color: var(--green); } .ds-project-arrow { width: 22px; vertical-align: middle; color: var(--green); transition: transform 180ms ease; } .ds-project h2 a:hover .ds-project-arrow, .ds-project h2 a:focus-visible .ds-project-arrow { transform: translateX(4px); } .ds-project p { margin: 14px 0 0; color: var(--ink); font-size: 17px; line-height: 26px; } .ds-project-note { display: inline-block; margin-top: 16px; color: var(--green); font-family: var(--font-note); font-size: 25px; line-height: 1.2; } @media (max-width: 700px) { .ds-project { grid-template-columns: 128px minmax(0, 1fr); gap: 20px; min-height: 194px; padding: 24px 0; border-right: 0; border-bottom: 1px solid var(--rule); } .ds-project-media { width: 128px; height: 128px; } .ds-project h2 { font-size: 24px; } .ds-project p { margin-top: 10px; font-size: 16px; line-height: 23px; } } @media (prefers-reduced-motion: reduce) { .ds-project-arrow { transition: none; } }"
+    },
+    {
+      "name": "Reading Page",
+      "kind": "custom",
+      "refersTo": "reading-column",
+      "description": "Centered project and note copy with a spacious, rule-led reading rhythm.",
+      "html": "<article class=\"ds-reading\"><a class=\"ds-reading-back\" href=\"/creations\"><svg class=\"ds-reading-back-arrow\" xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.35\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 5l7 7-7 7\" /></svg>Back to creations</a><h1>Project Drift</h1><p class=\"ds-reading-description\">A word-association game I’m testing.</p><div class=\"ds-reading-prose\"><p>Project Drift is a word-association game I’m currently testing. The loop is simple: you get two word prompts, respond with the first association that comes to mind, then receive a new word to continue.</p><p>I’m curious about what happens when a game gives you a small prompt and lets your mind take it somewhere unexpected.</p></div></article>",
+      "css": ".ds-reading { width: min(100%, 720px); margin-inline: auto; font-family: var(--font-body); color: var(--ink); } .ds-reading-back { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; color: var(--green); text-decoration: underline; text-underline-offset: 9px; } .ds-reading-back-arrow { flex: none; transform: rotate(180deg); } .ds-reading h1 { margin: 30px 0 20px; font-size: clamp(36px, 4vw, 56px); line-height: 1.15; font-weight: 600; letter-spacing: -.025em; } .ds-reading-description { max-width: 32ch; color: var(--muted); font-size: 24px; line-height: 1.45; } .ds-reading-prose { margin-top: 40px; max-width: 68ch; font-size: 20px; line-height: 1.75; } .ds-reading-prose p { margin-block: 1.25em; } .ds-reading-prose p:first-child { margin-top: 0; } .ds-reading-prose p:last-child { margin-bottom: 0; } .ds-reading a:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 2px; } @media (max-width: 700px) { .ds-reading-description { font-size: 21px; } .ds-reading-prose { font-size: 18px; } }"
+    },
+    {
+      "name": "Circular Portrait",
+      "kind": "custom",
+      "refersTo": "portrait",
+      "description": "The approved circular crop geometry. This documentation preview omits the photo; the homepage uses the original color portrait.",
+      "html": "<div class=\"ds-portrait\"><div class=\"ds-portrait-placeholder\" role=\"img\" aria-label=\"Circular portrait frame preview\"></div></div>",
+      "css": ".ds-portrait { width: min(450px, 29.296875vw); aspect-ratio: 1; overflow: hidden; border-radius: 50%; background: var(--soft); } .ds-portrait-placeholder { width: 100%; height: 100%; background: var(--soft); } @media (max-width: 700px) { .ds-portrait { width: 208px; max-width: 62vw; } }"
+    },
+    {
+      "name": "Footer Brand",
+      "kind": "custom",
+      "refersTo": "footer-brand",
+      "description": "The identity-led closing band with the NewLad Creations cube mark.",
+      "html": "<a class=\"ds-footer-brand\" href=\"/\"><svg class=\"ds-footer-mark\" aria-hidden=\"true\" width=\"100%\" height=\"100%\" viewBox=\"0 0 960 960\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\" xmlns:serif=\"http://www.serif.com/\" style=\"fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;\"><g><g id=\"Axis-Lines\" serif:id=\"Axis Lines\"><g><path d=\"M111.755,275.719l-6.495,11.261l-7.333,-27.317l27.317,-7.333l-6.495,11.261l361.212,208.333l-6.995,12.128l-361.211,-208.333Z\"/><path d=\"M486.954,890.105l13,0l-20,20l-20,-20l13,0l-0,-406.066l14,0l-0,406.066Z\"/><path d=\"M839.485,264.648l-6.493,-11.262l27.316,7.338l-7.338,27.316l-6.493,-11.263l-359.524,207.27l-6.992,-12.129l359.524,-207.27Z\"/><path d=\"M479.961,471.924l6.994,12.114l-13.988,-0l6.994,-12.114Z\"/></g></g><path id=\"Outer-Box\" serif:id=\"Outer Box\" d=\"M168.049,298.012l0.491,359.716l311.771,184.693l311.276,-184.409l3.754,-361.749l-315.023,-177.962l-312.269,179.711Z\" style=\"fill:none;stroke:#000;stroke-width:11px;\"/><g id=\"Letters\"><g><path d=\"M411.936,738.091l0,-234.417c0,-7.392 -3.168,-13.444 -8.711,-16.645l-41.71,-24.081c-5.543,-3.201 -8.711,-0.806 -8.711,6.586l-0,105.593l-92.131,-164.768c-3.431,-6.205 -6.335,-9.29 -10.559,-11.728l-7.128,-4.115c-5.543,-3.201 -8.711,-0.806 -8.711,6.585l0,234.418c0,7.391 3.168,13.444 8.711,16.645l41.71,24.081c5.544,3.2 8.711,0.805 8.711,-6.586l0,-104.186l91.867,163.209c3.167,5.7 6.335,9.289 10.559,11.728l7.392,4.267c5.543,3.201 8.711,0.806 8.711,-6.586Z\" style=\"fill-rule:nonzero;\"/><path d=\"M520.059,346.721l-164.299,-94.858c-5.792,-3.344 -12.049,-3.603 -17.064,-0.707l-32.998,19.051c-5.016,2.896 -4.567,6.508 1.225,9.852l204.84,118.265c5.792,3.344 12.049,3.603 17.064,0.707l129.352,-74.681c5.016,-2.896 4.567,-6.508 -1.225,-9.852l-31.396,-18.127c-5.792,-3.344 -12.049,-3.603 -17.065,-0.707l-88.434,51.057Z\" style=\"fill-rule:nonzero;\"/><path d=\"M726.682,572.973l-29.567,1.231c-4.487,0.127 -7.919,3.869 -10.559,10.672c-8.447,22.476 -22.439,43.225 -41.973,54.504c-29.038,16.765 -52.533,1.115 -52.533,-43.938c-0,-44.701 23.495,-87.832 52.533,-104.597c19.798,-11.431 32.998,-6.028 41.709,5.837c2.904,3.603 6.336,3.382 10.823,-1.673l29.831,-33.061c5.015,-5.36 6.599,-11.554 3.695,-16.213c-17.423,-28.307 -46.725,-36.38 -86.058,-13.67c-55.701,32.158 -101.37,118.362 -101.37,191.573c-0,73.212 45.669,106.681 101.37,74.522c43.293,-24.995 71.539,-65.238 86.322,-113.898c2.112,-7.555 0.792,-11.369 -4.223,-11.289Z\" style=\"fill-rule:nonzero;\"/></g></g></g></svg><span>NewLad Creations</span></a>",
+      "css": ".ds-footer-brand { display: inline-flex; align-items: center; gap: 12px; color: var(--ink); font-family: var(--font-body); font-size: 18px; text-decoration: none; } .ds-footer-mark { width: 40px; height: 40px; flex: none; } .ds-footer-brand:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 2px; }"
+    },
+    {
+      "name": "Primary CTA",
+      "kind": "button",
+      "refersTo": "primary-cta",
+      "description": "A muted sage action link with white underlined text, as requested by Karim.",
+      "html": "<a class=\"ds-cta\" href=\"mailto:karim@newladcreations.com\">Say hello</a>",
+      "css": ".ds-cta { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 10px 20px; border-radius: 4px; background: var(--sage); color: var(--paper); font-family: var(--font-body); font-size: 18px; font-weight: 500; line-height: 1.4; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; transition: background-color 180ms ease; } .ds-cta:hover, .ds-cta:active { background: var(--sage-hover); color: var(--paper); } .ds-cta:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; } @media (prefers-reduced-motion: reduce) { .ds-cta { transition: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Open Studio",
+    "overview": "NewLad Creations presents Karim through the things he makes: a bright, daytime studio with room for experiments, unfinished work, and short notes. The implemented homepage opens with a candid original color portrait, a clear introduction, and a direct path into three creations. White space, black type, and one plant-green thread keep the page personal and easy to enter.\n\nMaterial character comes from local concept-art plates, a cedar-and-stone visual temperature in the imagery, fine gray rules, and one handwritten Caveat accent. Interior creation and note pages keep the same light canvas and move into a centered reading column. Motion is brief and optional: one underline draws in and arrows shift slightly, with a reduced-motion fallback.",
+    "keyCharacteristics": [
+      "Bright white studio canvas with black text and plant-green links.",
+      "Candid original portrait in a circle and optimized local image plates.",
+      "Kedebideri for display and body copy, with Caveat for short process marks.",
+      "Open desktop grids that become linear, touch-friendly sections on mobile.",
+      "Fine gray rules and whitespace provide structure; surfaces stay flat."
+    ],
+    "rules": [
+      {
+        "name": "The Green Thread Rule",
+        "body": "Plant green is reserved for navigation state, linked action, underlines, and handwritten annotations; the deeper green is a hover state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Studio Rule",
+        "body": "Paper is the default canvas. Soft neutrals support feedback and quiet surfaces without turning the page into a card stack.",
+        "section": "colors"
+      },
+      {
+        "name": "The Handmade Accent Rule",
+        "body": "Use Caveat only for a short annotation or process cue; keep explanations, navigation, and project titles in Kedebideri.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Keep UI surfaces flat at rest; use whitespace, rules, imagery, and restrained state changes to create depth.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the page on paper white with ink-black text and a plant-green interaction thread.",
+      "Do preserve the original color portrait as a circular image and keep local image plates optimized.",
+      "Do label concept artwork and game concept imagery so it reads as illustrative context rather than working hardware or a product screenshot.",
+      "Do use one-pixel cedar-gray rules, open spacing, and the responsive grid-to-linear rhythm to organize content.",
+      "Do keep the underline entrance and arrow movement optional, with the reduced-motion fallback intact.",
+      "Do retain the cube mark in the footer as a meaningful NewLad Creations identity element."
+    ],
+    "donts": [
+      "Don't add pill controls, rounded cards, box shadows, or decorative gradients to this flat studio system.",
+      "Don't replace Kedebideri body and display text with a system display face; use Caveat only for short handwritten annotations.",
+      "Don't treat concept artwork as documentary photography or imply a project is more finished than the copy says.",
+      "Don't add newly public health or therapy details to copy, imagery, metadata, or project stories.",
+      "Don't make motion necessary to understand a link or section; all content and navigation must remain available with reduced motion."
+    ]
+  }
+}

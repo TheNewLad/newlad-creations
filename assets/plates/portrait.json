@@ -1,0 +1,14 @@
+{
+  "source": "User-provided MTB_2394-Retouched-2.jpg via src/images/karim-portrait.jpg",
+  "processing": "Full source photo resized to 1984x1587; no AI or retouching. Approved circle and crop are applied in CSS.",
+  "approvedSourceCrop": [
+    1100,
+    80,
+    2700,
+    1680
+  ],
+  "originalSize": [
+    3969,
+    3174
+  ]
+}

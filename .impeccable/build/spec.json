@@ -1,0 +1,2568 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-09-27T18:28:08.678Z",
+  "comp": ".impeccable/mocks/decision/open-studio-original-circle-v1.png",
+  "warnings": [
+    "region brand: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region navigation: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region headline: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region underline: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region intro: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region intro-second: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region explore: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region home-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region home-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region home-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region home-arrow: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region project-dividers: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region drift-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region drift-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region drift-status: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region drift-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region drift-arrow: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-divider: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-status: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region love-arrow: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region notes-rule: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region notes-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region notes-intro: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-one-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-one-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-one-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region notes-divider-one: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-two-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-two-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-two-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region notes-divider-two: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-three-title: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-three-description: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region note-three-caption: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)"
+  ],
+  "uncoveredInkCells": [
+    "A5",
+    "B5",
+    "G5",
+    "H5",
+    "G6",
+    "A8",
+    "B8",
+    "C8",
+    "D8",
+    "E8",
+    "G8",
+    "I8",
+    "D9",
+    "E9",
+    "F9",
+    "G9",
+    "I9"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f7f7f7",
+      "coverage": 0.898
+    },
+    {
+      "hex": "#1f1f21",
+      "coverage": 0.0503
+    },
+    {
+      "hex": "#dad7ce",
+      "coverage": 0.0333
+    },
+    {
+      "hex": "#a8a6a4",
+      "coverage": 0.0155
+    },
+    {
+      "hex": "#322232",
+      "coverage": 0.0029
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0471,
+      "strength": 0.2832
+    },
+    {
+      "y": 0.1529,
+      "strength": 0.2194
+    },
+    {
+      "y": 0.1765,
+      "strength": 0.2592
+    },
+    {
+      "y": 0.2118,
+      "strength": 0.2738
+    },
+    {
+      "y": 0.2471,
+      "strength": 0.4446
+    },
+    {
+      "y": 0.2824,
+      "strength": 0.3071
+    },
+    {
+      "y": 0.3529,
+      "strength": 0.3101
+    },
+    {
+      "y": 0.6235,
+      "strength": 0.2906
+    },
+    {
+      "y": 0.6471,
+      "strength": 0.2468
+    },
+    {
+      "y": 0.6706,
+      "strength": 0.2073
+    },
+    {
+      "y": 0.7765,
+      "strength": 0.2635
+    },
+    {
+      "y": 0.8706,
+      "strength": 0.6097
+    },
+    {
+      "y": 0.9059,
+      "strength": 0.306
+    },
+    {
+      "y": 0.9412,
+      "strength": 0.2429
+    }
+  ],
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "text",
+      "note": "NewLad Creations wordmark",
+      "grid": "A0:B0",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0299,
+        "y": 0.0283,
+        "w": 0.1465,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 46,
+        "y": 29,
+        "w": 225,
+        "h": 30
+      },
+      "aspect": 7.5,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8179
+        },
+        {
+          "hex": "#0e0f0f",
+          "coverage": 0.079
+        },
+        {
+          "hex": "#b1b3b3",
+          "coverage": 0.0455
+        },
+        {
+          "hex": "#474849",
+          "coverage": 0.0335
+        },
+        {
+          "hex": "#757674",
+          "coverage": 0.0241
+        }
+      ],
+      "detail": {
+        "energy": 58.5889
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 16,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6234,
+          "advTall": 0.639,
+          "advX": 0.6234,
+          "gap": 0.1247,
+          "xRatio": 0.7321,
+          "stemW": 0.1624,
+          "contrast": 1.0769,
+          "serif": 0.4506,
+          "densTall": 0.4811,
+          "densX": 0.565,
+          "weight": 0.4811
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "note": "Creations Notes About and Say hello navigation links",
+      "grid": "G0:J0",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.6862,
+        "y": 0.0273,
+        "w": 0.2715,
+        "h": 0.0352
+      },
+      "px": {
+        "x": 1054,
+        "y": 28,
+        "w": 417,
+        "h": 36
+      },
+      "aspect": 11.5833,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9279
+        },
+        {
+          "hex": "#969c96",
+          "coverage": 0.0308
+        },
+        {
+          "hex": "#151615",
+          "coverage": 0.0197
+        },
+        {
+          "hex": "#4b4c4c",
+          "coverage": 0.0129
+        },
+        {
+          "hex": "#cacdcd",
+          "coverage": 0.0086
+        }
+      ],
+      "detail": {
+        "energy": 32.0199
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Hi, I’m Karim. I like making things. Two lines of bold black sans serif",
+      "grid": "A1:D2",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0417,
+        "y": 0.1475,
+        "w": 0.3509,
+        "h": 0.1338
+      },
+      "px": {
+        "x": 64,
+        "y": 151,
+        "w": 539,
+        "h": 137
+      },
+      "aspect": 3.9343,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7763
+        },
+        {
+          "hex": "#090909",
+          "coverage": 0.188
+        },
+        {
+          "hex": "#3a3a3a",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#717171",
+          "coverage": 0.0118
+        },
+        {
+          "hex": "#b3b3b4",
+          "coverage": 0.0086
+        }
+      ],
+      "detail": {
+        "energy": 76.9909
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 26,
+          "capHeightPx": 49.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6196,
+          "advTall": 0.1881,
+          "advX": 0.6516,
+          "gap": 0.1106,
+          "xRatio": 0.6905,
+          "stemW": 0.1635,
+          "contrast": 1.1309,
+          "serif": 0.9979,
+          "densTall": 0.7843,
+          "densX": 0.5642,
+          "weight": 0.7843
+        },
+        "widthClass": "normal",
+        "weightClass": "black",
+        "chosen": {
+          "family": "Kedebideri",
+          "weight": 700,
+          "fontSizePx": 70,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "cfc5a65f2ad9"
+        }
+      }
+    },
+    {
+      "id": "underline",
+      "kind": "chrome",
+      "note": "Short green underline accent below heading",
+      "grid": "A2:B3",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0423,
+        "y": 0.2988,
+        "w": 0.0931,
+        "h": 0.0117
+      },
+      "px": {
+        "x": 65,
+        "y": 306,
+        "w": 143,
+        "h": 12
+      },
+      "aspect": 11.9167,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7647
+        },
+        {
+          "hex": "#1e400f",
+          "coverage": 0.1658
+        },
+        {
+          "hex": "#95ab92",
+          "coverage": 0.0267
+        },
+        {
+          "hex": "#182808",
+          "coverage": 0.0214
+        },
+        {
+          "hex": "#d0dccc",
+          "coverage": 0.0214
+        }
+      ],
+      "detail": {
+        "energy": 40.0008
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "note": "Software, automations, experiments, and the occasional detour.",
+      "grid": "A3:C4",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0423,
+        "y": 0.3418,
+        "w": 0.2474,
+        "h": 0.0596
+      },
+      "px": {
+        "x": 65,
+        "y": 350,
+        "w": 380,
+        "h": 61
+      },
+      "aspect": 6.2295,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8405
+        },
+        {
+          "hex": "#0f0f0f",
+          "coverage": 0.068
+        },
+        {
+          "hex": "#828283",
+          "coverage": 0.0376
+        },
+        {
+          "hex": "#c5c5c5",
+          "coverage": 0.0349
+        },
+        {
+          "hex": "#48494a",
+          "coverage": 0.019
+        }
+      ],
+      "detail": {
+        "energy": 77.9177
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 48,
+          "capHeightPx": 18,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5842,
+          "advTall": 0.4175,
+          "advX": 0.5842,
+          "gap": 0.1113,
+          "xRatio": 0.7083,
+          "stemW": 0.1306,
+          "contrast": 1.038,
+          "serif": 0.3008,
+          "densTall": 0.4262,
+          "densX": 0.5024,
+          "weight": 0.4262
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "intro-second",
+      "kind": "text",
+      "note": "I share what I’m building and what I’m figuring out along the way.",
+      "grid": "A4:C4",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0423,
+        "y": 0.4189,
+        "w": 0.2292,
+        "h": 0.0566
+      },
+      "px": {
+        "x": 65,
+        "y": 429,
+        "w": 352,
+        "h": 58
+      },
+      "aspect": 6.069,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8582
+        },
+        {
+          "hex": "#0e0e0e",
+          "coverage": 0.064
+        },
+        {
+          "hex": "#b5b5b6",
+          "coverage": 0.041
+        },
+        {
+          "hex": "#79797c",
+          "coverage": 0.0192
+        },
+        {
+          "hex": "#484847",
+          "coverage": 0.0175
+        }
+      ],
+      "detail": {
+        "energy": 78.296
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 51,
+          "capHeightPx": 16.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5578,
+          "advTall": 0.4029,
+          "advX": 0.6131,
+          "gap": 0.1213,
+          "xRatio": 0.708,
+          "stemW": 0.1378,
+          "contrast": 1.0117,
+          "serif": 0.841,
+          "densTall": 0.4563,
+          "densX": 0.526,
+          "weight": 0.4563
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "explore",
+      "kind": "control",
+      "note": "Explore the creations with a green right arrow and underline",
+      "grid": "A5:B5",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.043,
+        "y": 0.5,
+        "w": 0.1335,
+        "h": 0.0352
+      },
+      "px": {
+        "x": 66,
+        "y": 512,
+        "w": 205,
+        "h": 36
+      },
+      "aspect": 5.6944,
+      "palette": [
+        {
+          "hex": "#f5f6f5",
+          "coverage": 0.8999
+        },
+        {
+          "hex": "#173611",
+          "coverage": 0.0366
+        },
+        {
+          "hex": "#c9d0c5",
+          "coverage": 0.0256
+        },
+        {
+          "hex": "#647f5e",
+          "coverage": 0.0256
+        },
+        {
+          "hex": "#9bae98",
+          "coverage": 0.0122
+        }
+      ],
+      "detail": {
+        "energy": 50.0112
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "portrait",
+      "kind": "image",
+      "note": "Original color studio portrait of Karim with a circular mask and light background; use supplied image unchanged",
+      "grid": "F1:I5",
+      "box": {
+        "x": 0.5723,
+        "y": 0.1006,
+        "w": 0.293,
+        "h": 0.4395
+      },
+      "px": {
+        "x": 879,
+        "y": 103,
+        "w": 450,
+        "h": 450
+      },
+      "aspect": 1,
+      "palette": [
+        {
+          "hex": "#efefee",
+          "coverage": 0.6208
+        },
+        {
+          "hex": "#28272a",
+          "coverage": 0.2902
+        },
+        {
+          "hex": "#785543",
+          "coverage": 0.0373
+        },
+        {
+          "hex": "#cc9e8a",
+          "coverage": 0.0326
+        },
+        {
+          "hex": "#4b413e",
+          "coverage": 0.0191
+        }
+      ],
+      "detail": {
+        "energy": 11.3795
+      },
+      "medium": "raster",
+      "plate": "assets/plates/portrait.png",
+      "text": null
+    },
+    {
+      "id": "home-art",
+      "kind": "plate",
+      "note": "Off-white tactile home automation wall panel with black line icons on three raised switches and stone-colored backing",
+      "grid": "A6:B7",
+      "box": {
+        "x": 0.0443,
+        "y": 0.6123,
+        "w": 0.1328,
+        "h": 0.167
+      },
+      "px": {
+        "x": 68,
+        "y": 627,
+        "w": 204,
+        "h": 171
+      },
+      "aspect": 1.193,
+      "palette": [
+        {
+          "hex": "#e5e0da",
+          "coverage": 0.8396
+        },
+        {
+          "hex": "#bfb4a9",
+          "coverage": 0.0895
+        },
+        {
+          "hex": "#9b8e81",
+          "coverage": 0.052
+        },
+        {
+          "hex": "#695b4c",
+          "coverage": 0.014
+        },
+        {
+          "hex": "#21201e",
+          "coverage": 0.0049
+        }
+      ],
+      "detail": {
+        "energy": 15.1346
+      },
+      "medium": "raster",
+      "plate": "assets/plates/home-art.png",
+      "text": null
+    },
+    {
+      "id": "home-title",
+      "kind": "text",
+      "note": "Home automation",
+      "grid": "C6:D6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.2116,
+        "y": 0.6172,
+        "w": 0.1497,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 325,
+        "y": 632,
+        "w": 230,
+        "h": 34
+      },
+      "aspect": 6.7647,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7723
+        },
+        {
+          "hex": "#0a0a0a",
+          "coverage": 0.134
+        },
+        {
+          "hex": "#bfc0c2",
+          "coverage": 0.0425
+        },
+        {
+          "hex": "#404141",
+          "coverage": 0.0305
+        },
+        {
+          "hex": "#7a7a7b",
+          "coverage": 0.0207
+        }
+      ],
+      "detail": {
+        "energy": 75.072
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 14,
+          "capHeightPx": 23,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5758,
+          "advTall": 0.3911,
+          "advX": 0.5976,
+          "gap": 0.1086,
+          "xRatio": 0.6916,
+          "stemW": 0.129,
+          "contrast": 0.9946,
+          "serif": 0.7677,
+          "densTall": 0.4526,
+          "densX": 0.5027,
+          "weight": 0.4526
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "home-description",
+      "kind": "text",
+      "note": "Systems I built for my home.",
+      "grid": "C6:D6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.2122,
+        "y": 0.6631,
+        "w": 0.1452,
+        "h": 0.0264
+      },
+      "px": {
+        "x": 326,
+        "y": 679,
+        "w": 223,
+        "h": 27
+      },
+      "aspect": 8.2593,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8531
+        },
+        {
+          "hex": "#2b2b2c",
+          "coverage": 0.051
+        },
+        {
+          "hex": "#adacad",
+          "coverage": 0.042
+        },
+        {
+          "hex": "#535454",
+          "coverage": 0.033
+        },
+        {
+          "hex": "#807b7f",
+          "coverage": 0.021
+        }
+      ],
+      "detail": {
+        "energy": 43.9628
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 19,
+          "capHeightPx": 13,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5751,
+          "advTall": 0.5559,
+          "advX": 0.5751,
+          "gap": 0.0767,
+          "xRatio": 0.7073,
+          "stemW": 0.1531,
+          "contrast": 0.9532,
+          "serif": null,
+          "densTall": 0.4874,
+          "densX": 0.5569,
+          "weight": 0.4874
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "home-caption",
+      "kind": "text",
+      "note": "Concept artwork caption",
+      "grid": "C7:C7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.2129,
+        "y": 0.7607,
+        "w": 0.0742,
+        "h": 0.0225
+      },
+      "px": {
+        "x": 327,
+        "y": 779,
+        "w": 114,
+        "h": 23
+      },
+      "aspect": 4.9565,
+      "palette": [
+        {
+          "hex": "#f6f7f7",
+          "coverage": 0.9145
+        },
+        {
+          "hex": "#9e9e9f",
+          "coverage": 0.0526
+        },
+        {
+          "hex": "#c2c3c6",
+          "coverage": 0.0329
+        }
+      ],
+      "detail": {
+        "energy": 13.7941
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 10.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7097,
+          "advTall": 1.129,
+          "advX": 0.5322,
+          "gap": 0.0323,
+          "xRatio": 0.7,
+          "stemW": 0.1753,
+          "contrast": 0.9457,
+          "serif": null,
+          "densTall": 0.4665,
+          "densX": 0.6671,
+          "weight": 0.4665
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "home-arrow",
+      "kind": "control",
+      "note": "Small green right arrow project link",
+      "grid": "D7:D7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.3366,
+        "y": 0.7549,
+        "w": 0.0202,
+        "h": 0.0244
+      },
+      "px": {
+        "x": 517,
+        "y": 773,
+        "w": 31,
+        "h": 25
+      },
+      "aspect": 1.24,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.899
+        },
+        {
+          "hex": "#d3dfd1",
+          "coverage": 0.0707
+        },
+        {
+          "hex": "#405030",
+          "coverage": 0.0202
+        },
+        {
+          "hex": "#587848",
+          "coverage": 0.0101
+        }
+      ],
+      "detail": {
+        "energy": 4.9676
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "project-dividers",
+      "kind": "chrome",
+      "note": "Fine vertical neutral rule between projects",
+      "grid": "D6:D7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.375,
+        "y": 0.6113,
+        "w": 0.0039,
+        "h": 0.1875
+      },
+      "px": {
+        "x": 576,
+        "y": 626,
+        "w": 6,
+        "h": 192
+      },
+      "aspect": 0.0313,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.5
+        },
+        {
+          "hex": "#898889",
+          "coverage": 0.5
+        }
+      ],
+      "detail": {
+        "energy": 1.8051
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "drift-art",
+      "kind": "plate",
+      "note": "Two small off-white word cards above one pale green answer card, with fine green dashed connection lines; render blank cards and separate readable HTML labels",
+      "grid": "D6:F7",
+      "box": {
+        "x": 0.3971,
+        "y": 0.6172,
+        "w": 0.123,
+        "h": 0.1611
+      },
+      "px": {
+        "x": 610,
+        "y": 632,
+        "w": 189,
+        "h": 165
+      },
+      "aspect": 1.1455,
+      "palette": [
+        {
+          "hex": "#f8f8f5",
+          "coverage": 0.6967
+        },
+        {
+          "hex": "#d9d8c6",
+          "coverage": 0.2501
+        },
+        {
+          "hex": "#afa292",
+          "coverage": 0.0271
+        },
+        {
+          "hex": "#0a0a0a",
+          "coverage": 0.0159
+        },
+        {
+          "hex": "#747d59",
+          "coverage": 0.0102
+        }
+      ],
+      "detail": {
+        "energy": 21.312
+      },
+      "medium": "raster",
+      "plate": "assets/plates/drift-art.png",
+      "text": null
+    },
+    {
+      "id": "drift-title",
+      "kind": "text",
+      "note": "Project Drift",
+      "grid": "F6:G6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5293,
+        "y": 0.6191,
+        "w": 0.1185,
+        "h": 0.0342
+      },
+      "px": {
+        "x": 813,
+        "y": 634,
+        "w": 182,
+        "h": 35
+      },
+      "aspect": 5.2,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7984
+        },
+        {
+          "hex": "#121212",
+          "coverage": 0.1097
+        },
+        {
+          "hex": "#cacbcb",
+          "coverage": 0.0384
+        },
+        {
+          "hex": "#535354",
+          "coverage": 0.037
+        },
+        {
+          "hex": "#939393",
+          "coverage": 0.0165
+        }
+      ],
+      "detail": {
+        "energy": 50.5058
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 21.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5259,
+          "advTall": 0.5945,
+          "advX": 0.4459,
+          "gap": 0.0915,
+          "xRatio": 0.685,
+          "stemW": 0.1354,
+          "contrast": 0.9995,
+          "serif": 1.0233,
+          "densTall": 0.4781,
+          "densX": 0.4613,
+          "weight": 0.4781
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "drift-description",
+      "kind": "text",
+      "note": "A word-association game I’m testing.",
+      "grid": "F6:G7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5299,
+        "y": 0.665,
+        "w": 0.125,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 814,
+        "y": 681,
+        "w": 192,
+        "h": 48
+      },
+      "aspect": 4,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8874
+        },
+        {
+          "hex": "#3b3b3b",
+          "coverage": 0.0415
+        },
+        {
+          "hex": "#7f7f7f",
+          "coverage": 0.0346
+        },
+        {
+          "hex": "#d1d0d0",
+          "coverage": 0.0227
+        },
+        {
+          "hex": "#b0b0b1",
+          "coverage": 0.0138
+        }
+      ],
+      "detail": {
+        "energy": 36.3174
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 28,
+          "capHeightPx": 12.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5642,
+          "advTall": 0.3641,
+          "advX": 0.5663,
+          "gap": 0.0803,
+          "xRatio": 0.7325,
+          "stemW": 0.1626,
+          "contrast": 0.9851,
+          "serif": 0.5348,
+          "densTall": 0.5457,
+          "densX": 0.5756,
+          "weight": 0.5457
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "drift-status",
+      "kind": "text",
+      "note": "Testing in loose handwritten green text with underline",
+      "grid": "F7:G7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5293,
+        "y": 0.7305,
+        "w": 0.0788,
+        "h": 0.0391
+      },
+      "px": {
+        "x": 813,
+        "y": 748,
+        "w": 121,
+        "h": 40
+      },
+      "aspect": 3.025,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9194
+        },
+        {
+          "hex": "#224217",
+          "coverage": 0.0298
+        },
+        {
+          "hex": "#4f6b45",
+          "coverage": 0.021
+        },
+        {
+          "hex": "#8ea28d",
+          "coverage": 0.0175
+        },
+        {
+          "hex": "#c1d6c1",
+          "coverage": 0.0123
+        }
+      ],
+      "detail": {
+        "energy": 14.8951
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 14.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4706,
+          "advTall": null,
+          "advX": 0.4706,
+          "gap": 0.1008,
+          "xRatio": 0.5279,
+          "stemW": 0.1397,
+          "contrast": 1.0041,
+          "serif": 1.3101,
+          "densTall": null,
+          "densX": 0.6624,
+          "weight": 0.6624
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "drift-caption",
+      "kind": "text",
+      "note": "Game concept caption",
+      "grid": "D7:E8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.3997,
+        "y": 0.7813,
+        "w": 0.0996,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 614,
+        "y": 800,
+        "w": 153,
+        "h": 22
+      },
+      "aspect": 6.9545,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9167
+        },
+        {
+          "hex": "#9a9c9e",
+          "coverage": 0.0637
+        },
+        {
+          "hex": "#c0c0c2",
+          "coverage": 0.0196
+        }
+      ],
+      "detail": {
+        "energy": 12.1948
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 10.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.673,
+          "advTall": 0.5769,
+          "advX": 0.8493,
+          "gap": 0.032,
+          "xRatio": 0.7176,
+          "stemW": 0.1775,
+          "contrast": 1.0121,
+          "serif": null,
+          "densTall": 0.5304,
+          "densX": 0.624,
+          "weight": 0.5304
+        },
+        "widthClass": "wide",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "drift-arrow",
+      "kind": "control",
+      "note": "Small green right arrow project link",
+      "grid": "G7:G7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.625,
+        "y": 0.7549,
+        "w": 0.0189,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 960,
+        "y": 773,
+        "w": 29,
+        "h": 24
+      },
+      "aspect": 1.2083,
+      "palette": [
+        {
+          "hex": "#f6f6f6",
+          "coverage": 0.95
+        },
+        {
+          "hex": "#a8b8a8",
+          "coverage": 0.025
+        },
+        {
+          "hex": "#183808",
+          "coverage": 0.0125
+        },
+        {
+          "hex": "#384828",
+          "coverage": 0.0125
+        }
+      ],
+      "detail": {
+        "energy": 5.0215
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "love-divider",
+      "kind": "chrome",
+      "note": "Fine vertical neutral rule between projects",
+      "grid": "G6:G7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.6621,
+        "y": 0.6113,
+        "w": 0.0039,
+        "h": 0.1875
+      },
+      "px": {
+        "x": 1017,
+        "y": 626,
+        "w": 6,
+        "h": 192
+      },
+      "aspect": 0.0313,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.5
+        },
+        {
+          "hex": "#c6c6c6",
+          "coverage": 0.5
+        }
+      ],
+      "detail": {
+        "energy": 1.2726
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "love-art",
+      "kind": "plate",
+      "note": "Two offset tactile chat bubbles, upper white, lower pale olive green with a small green heart and inset gray message lines",
+      "grid": "G6:I7",
+      "box": {
+        "x": 0.6836,
+        "y": 0.6221,
+        "w": 0.1393,
+        "h": 0.1543
+      },
+      "px": {
+        "x": 1050,
+        "y": 637,
+        "w": 214,
+        "h": 158
+      },
+      "aspect": 1.3544,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.5781
+        },
+        {
+          "hex": "#d9d6c9",
+          "coverage": 0.3347
+        },
+        {
+          "hex": "#b7b49b",
+          "coverage": 0.0751
+        },
+        {
+          "hex": "#6a7b48",
+          "coverage": 0.0076
+        },
+        {
+          "hex": "#9e9282",
+          "coverage": 0.0045
+        }
+      ],
+      "detail": {
+        "energy": 8.2859
+      },
+      "medium": "raster",
+      "plate": "assets/plates/love-art.png",
+      "text": null
+    },
+    {
+      "id": "love-title",
+      "kind": "text",
+      "note": "Fell for Love",
+      "grid": "I6:J6",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.8411,
+        "y": 0.6221,
+        "w": 0.1204,
+        "h": 0.0322
+      },
+      "px": {
+        "x": 1292,
+        "y": 637,
+        "w": 185,
+        "h": 33
+      },
+      "aspect": 5.6061,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8042
+        },
+        {
+          "hex": "#0d0e0d",
+          "coverage": 0.1009
+        },
+        {
+          "hex": "#c1c1c2",
+          "coverage": 0.0415
+        },
+        {
+          "hex": "#838484",
+          "coverage": 0.0401
+        },
+        {
+          "hex": "#3d3f3d",
+          "coverage": 0.0134
+        }
+      ],
+      "detail": {
+        "energy": 47.7518
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 22.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5166,
+          "advTall": 0.4043,
+          "advX": 0.5615,
+          "gap": 0.0786,
+          "xRatio": 0.6847,
+          "stemW": 0.1302,
+          "contrast": 0.972,
+          "serif": 0.917,
+          "densTall": 0.4672,
+          "densX": 0.5038,
+          "weight": 0.4672
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "love-description",
+      "kind": "text",
+      "note": "A wedding tool I built. The story so far.",
+      "grid": "I6:J7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.8411,
+        "y": 0.668,
+        "w": 0.1185,
+        "h": 0.0479
+      },
+      "px": {
+        "x": 1292,
+        "y": 684,
+        "w": 182,
+        "h": 49
+      },
+      "aspect": 3.7143,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8907
+        },
+        {
+          "hex": "#252625",
+          "coverage": 0.0371
+        },
+        {
+          "hex": "#818181",
+          "coverage": 0.0341
+        },
+        {
+          "hex": "#cfd0d2",
+          "coverage": 0.0254
+        },
+        {
+          "hex": "#515151",
+          "coverage": 0.0127
+        }
+      ],
+      "detail": {
+        "energy": 36.4789
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 23,
+          "capHeightPx": 13,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5252,
+          "advTall": 0.5252,
+          "advX": 0.5252,
+          "gap": 0.1159,
+          "xRatio": 0.7125,
+          "stemW": 0.1482,
+          "contrast": 0.932,
+          "serif": null,
+          "densTall": 0.5035,
+          "densX": 0.5601,
+          "weight": 0.5035
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "love-status",
+      "kind": "text",
+      "note": "The story so far in loose handwritten green text with underline",
+      "grid": "I7:J7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.8411,
+        "y": 0.7314,
+        "w": 0.1055,
+        "h": 0.0391
+      },
+      "px": {
+        "x": 1292,
+        "y": 749,
+        "w": 162,
+        "h": 40
+      },
+      "aspect": 4.05,
+      "palette": [
+        {
+          "hex": "#f8f8f7",
+          "coverage": 0.9074
+        },
+        {
+          "hex": "#becdba",
+          "coverage": 0.0362
+        },
+        {
+          "hex": "#294b1f",
+          "coverage": 0.0295
+        },
+        {
+          "hex": "#5c7652",
+          "coverage": 0.0174
+        },
+        {
+          "hex": "#8fa881",
+          "coverage": 0.0094
+        }
+      ],
+      "detail": {
+        "energy": 26.7195
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 15.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4272,
+          "advTall": 0.4929,
+          "advX": 0.4107,
+          "gap": 0.0657,
+          "xRatio": 0.5236,
+          "stemW": 0.137,
+          "contrast": 0.9364,
+          "serif": null,
+          "densTall": 0.4617,
+          "densX": 0.624,
+          "weight": 0.4617
+        },
+        "widthClass": "compressed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "love-caption",
+      "kind": "text",
+      "note": "Concept artwork caption",
+      "grid": "G7:H8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.6849,
+        "y": 0.7813,
+        "w": 0.0931,
+        "h": 0.0205
+      },
+      "px": {
+        "x": 1052,
+        "y": 800,
+        "w": 143,
+        "h": 21
+      },
+      "aspect": 6.8095,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8839
+        },
+        {
+          "hex": "#a6a5a9",
+          "coverage": 0.1071
+        },
+        {
+          "hex": "#e0d0e0",
+          "coverage": 0.006
+        },
+        {
+          "hex": "#787888",
+          "coverage": 0.003
+        }
+      ],
+      "detail": {
+        "energy": 13.9232
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 5,
+          "capHeightPx": 10.2,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.358,
+          "advTall": null,
+          "advX": null,
+          "gap": 0.0488,
+          "xRatio": 0.6393,
+          "stemW": 0.1971,
+          "contrast": 1.043,
+          "serif": 0.9403,
+          "densTall": null,
+          "densX": null,
+          "weight": null
+        },
+        "widthClass": "compressed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "love-arrow",
+      "kind": "control",
+      "note": "Small green right arrow project link",
+      "grid": "J7:J7",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.9382,
+        "y": 0.7559,
+        "w": 0.0215,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 1441,
+        "y": 774,
+        "w": 33,
+        "h": 24
+      },
+      "aspect": 1.375,
+      "palette": [
+        {
+          "hex": "#f7f8f7",
+          "coverage": 0.9205
+        },
+        {
+          "hex": "#88a084",
+          "coverage": 0.0455
+        },
+        {
+          "hex": "#103008",
+          "coverage": 0.0227
+        },
+        {
+          "hex": "#486838",
+          "coverage": 0.0114
+        }
+      ],
+      "detail": {
+        "energy": 4.7982
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "notes-rule",
+      "kind": "chrome",
+      "note": "Thin horizontal divider separating creations from notes",
+      "grid": "A8:J8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0345,
+        "y": 0.8271,
+        "w": 0.9284,
+        "h": 0.0039
+      },
+      "px": {
+        "x": 53,
+        "y": 847,
+        "w": 1426,
+        "h": 4
+      },
+      "aspect": 356.5,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 14.7382
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "notes-title",
+      "kind": "text",
+      "note": "Notes along the way",
+      "grid": "A8:C8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0423,
+        "y": 0.8555,
+        "w": 0.2227,
+        "h": 0.04
+      },
+      "px": {
+        "x": 65,
+        "y": 876,
+        "w": 342,
+        "h": 41
+      },
+      "aspect": 8.3415,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7926
+        },
+        {
+          "hex": "#0b0b0b",
+          "coverage": 0.115
+        },
+        {
+          "hex": "#7a7b7b",
+          "coverage": 0.039
+        },
+        {
+          "hex": "#b4b4b5",
+          "coverage": 0.0283
+        },
+        {
+          "hex": "#464848",
+          "coverage": 0.0251
+        }
+      ],
+      "detail": {
+        "energy": 81.6457
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 15,
+          "capHeightPx": 26.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.566,
+          "advTall": 0.4151,
+          "advX": 0.6038,
+          "gap": 0.0943,
+          "xRatio": 0.6823,
+          "stemW": 0.1281,
+          "contrast": 1.0257,
+          "serif": null,
+          "densTall": 0.4265,
+          "densX": 0.5085,
+          "weight": 0.4265
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "notes-intro",
+      "kind": "text",
+      "note": "I’m sharing ideas and lessons as they take shape.",
+      "grid": "A9:C9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0423,
+        "y": 0.9033,
+        "w": 0.1803,
+        "h": 0.0498
+      },
+      "px": {
+        "x": 65,
+        "y": 925,
+        "w": 277,
+        "h": 51
+      },
+      "aspect": 5.4314,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8835
+        },
+        {
+          "hex": "#212222",
+          "coverage": 0.0424
+        },
+        {
+          "hex": "#c0c0c0",
+          "coverage": 0.0323
+        },
+        {
+          "hex": "#817f80",
+          "coverage": 0.031
+        },
+        {
+          "hex": "#4f504f",
+          "coverage": 0.0108
+        }
+      ],
+      "detail": {
+        "energy": 50.1673
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 38,
+          "capHeightPx": 13.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5247,
+          "advTall": 0.4872,
+          "advX": 0.5621,
+          "gap": 0.1124,
+          "xRatio": 0.6983,
+          "stemW": 0.1523,
+          "contrast": 1.0108,
+          "serif": null,
+          "densTall": 0.4954,
+          "densX": 0.6079,
+          "weight": 0.4954
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "note-one-title",
+      "kind": "text",
+      "note": "Frontend and instant feedback",
+      "grid": "D8:E8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.3268,
+        "y": 0.8633,
+        "w": 0.1686,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 502,
+        "y": 884,
+        "w": 259,
+        "h": 24
+      },
+      "aspect": 10.7917,
+      "palette": [
+        {
+          "hex": "#f7f8f7",
+          "coverage": 0.8211
+        },
+        {
+          "hex": "#214417",
+          "coverage": 0.0704
+        },
+        {
+          "hex": "#4d6d45",
+          "coverage": 0.0455
+        },
+        {
+          "hex": "#b1c1ad",
+          "coverage": 0.0396
+        },
+        {
+          "hex": "#75896c",
+          "coverage": 0.0235
+        }
+      ],
+      "detail": {
+        "energy": 62.4134
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 26,
+          "capHeightPx": 13,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.575,
+          "advTall": 0.46,
+          "advX": 0.575,
+          "gap": 0.0767,
+          "xRatio": 0.7084,
+          "stemW": 0.16,
+          "contrast": 1.0236,
+          "serif": null,
+          "densTall": 0.5009,
+          "densX": 0.6037,
+          "weight": 0.5009
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "note-one-description",
+      "kind": "text",
+      "note": "Ideas on building interfaces that feel alive and responsive.",
+      "grid": "D8:E9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.3268,
+        "y": 0.8975,
+        "w": 0.1563,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 502,
+        "y": 919,
+        "w": 240,
+        "h": 48
+      },
+      "aspect": 5,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8568
+        },
+        {
+          "hex": "#383737",
+          "coverage": 0.0665
+        },
+        {
+          "hex": "#a0a0a0",
+          "coverage": 0.0364
+        },
+        {
+          "hex": "#6b696a",
+          "coverage": 0.0301
+        },
+        {
+          "hex": "#c7c6c8",
+          "coverage": 0.0103
+        }
+      ],
+      "detail": {
+        "energy": 44.912
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 45,
+          "capHeightPx": 12.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5484,
+          "advTall": 0.1659,
+          "advX": 0.553,
+          "gap": 0.0823,
+          "xRatio": 0.7029,
+          "stemW": 0.1503,
+          "contrast": 0.9912,
+          "serif": 0.365,
+          "densTall": 0.6917,
+          "densX": 0.555,
+          "weight": 0.6917
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "note-one-caption",
+      "kind": "text",
+      "note": "Possible topic concept caption",
+      "grid": "D9:E9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.3268,
+        "y": 0.9521,
+        "w": 0.0755,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 502,
+        "y": 975,
+        "w": 116,
+        "h": 22
+      },
+      "aspect": 5.2727,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9231
+        },
+        {
+          "hex": "#b5b5b7",
+          "coverage": 0.0513
+        },
+        {
+          "hex": "#909090",
+          "coverage": 0.0256
+        }
+      ],
+      "detail": {
+        "energy": 15.0132
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 10.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5285,
+          "advTall": 0.5596,
+          "advX": 0.4974,
+          "gap": 0.0311,
+          "xRatio": 0.7023,
+          "stemW": 0.1625,
+          "contrast": 1.0007,
+          "serif": null,
+          "densTall": 0.4939,
+          "densX": 0.6308,
+          "weight": 0.4939
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "notes-divider-one",
+      "kind": "chrome",
+      "note": "Thin vertical note separator",
+      "grid": "F8:F9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5124,
+        "y": 0.8594,
+        "w": 0.0026,
+        "h": 0.1152
+      },
+      "px": {
+        "x": 787,
+        "y": 880,
+        "w": 4,
+        "h": 118
+      },
+      "aspect": 0.0339,
+      "palette": [
+        {
+          "hex": "#e9e9e9",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.3733
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "note-two-title",
+      "kind": "text",
+      "note": "From brain dump to short video",
+      "grid": "F8:H8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5501,
+        "y": 0.8633,
+        "w": 0.1829,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 845,
+        "y": 884,
+        "w": 281,
+        "h": 24
+      },
+      "aspect": 11.7083,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8262
+        },
+        {
+          "hex": "#1e3d16",
+          "coverage": 0.0735
+        },
+        {
+          "hex": "#c5d5c1",
+          "coverage": 0.0455
+        },
+        {
+          "hex": "#5f7957",
+          "coverage": 0.0321
+        },
+        {
+          "hex": "#91a690",
+          "coverage": 0.0227
+        }
+      ],
+      "detail": {
+        "energy": 54.1135
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 24,
+          "capHeightPx": 13.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5745,
+          "advTall": 0.5745,
+          "advX": 0.5554,
+          "gap": 0.1149,
+          "xRatio": 0.7092,
+          "stemW": 0.1588,
+          "contrast": 1.0027,
+          "serif": null,
+          "densTall": 0.4936,
+          "densX": 0.5407,
+          "weight": 0.4936
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "note-two-description",
+      "kind": "text",
+      "note": "Turning messy thoughts into simple, helpful clips.",
+      "grid": "F8:H9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5501,
+        "y": 0.8975,
+        "w": 0.1608,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 845,
+        "y": 919,
+        "w": 247,
+        "h": 48
+      },
+      "aspect": 5.1458,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8826
+        },
+        {
+          "hex": "#504f50",
+          "coverage": 0.0485
+        },
+        {
+          "hex": "#b1b0b1",
+          "coverage": 0.0417
+        },
+        {
+          "hex": "#292627",
+          "coverage": 0.0152
+        },
+        {
+          "hex": "#7f7b7f",
+          "coverage": 0.0121
+        }
+      ],
+      "detail": {
+        "energy": 36.9586
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 41,
+          "capHeightPx": 12,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.4971,
+          "advTall": 0.167,
+          "advX": 0.5426,
+          "gap": 0.0835,
+          "xRatio": 0.7105,
+          "stemW": 0.158,
+          "contrast": 0.9583,
+          "serif": 0.5753,
+          "densTall": 0.6818,
+          "densX": 0.6147,
+          "weight": 0.6818
+        },
+        "widthClass": "condensed",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "note-two-caption",
+      "kind": "text",
+      "note": "Possible topic concept caption",
+      "grid": "F9:G9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.5501,
+        "y": 0.9521,
+        "w": 0.0755,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 845,
+        "y": 975,
+        "w": 116,
+        "h": 22
+      },
+      "aspect": 5.2727,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8942
+        },
+        {
+          "hex": "#9a9a9e",
+          "coverage": 0.0641
+        },
+        {
+          "hex": "#cccace",
+          "coverage": 0.0417
+        }
+      ],
+      "detail": {
+        "energy": 15.0878
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 9,
+          "capHeightPx": 10.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5654,
+          "advTall": 0.3973,
+          "advX": 0.7793,
+          "gap": 0.0306,
+          "xRatio": 0.6906,
+          "stemW": 0.1615,
+          "contrast": 1.0095,
+          "serif": 0.9023,
+          "densTall": 0.5086,
+          "densX": 0.6233,
+          "weight": 0.5086
+        },
+        "widthClass": "wide",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "notes-divider-two",
+      "kind": "chrome",
+      "note": "Thin vertical note separator",
+      "grid": "H8:H9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.748,
+        "y": 0.8604,
+        "w": 0.0026,
+        "h": 0.1133
+      },
+      "px": {
+        "x": 1149,
+        "y": 881,
+        "w": 4,
+        "h": 116
+      },
+      "aspect": 0.0345,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.703
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "note-three-title",
+      "kind": "text",
+      "note": "Figuring out working for myself",
+      "grid": "H8:J8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.7819,
+        "y": 0.8633,
+        "w": 0.181,
+        "h": 0.0234
+      },
+      "px": {
+        "x": 1201,
+        "y": 884,
+        "w": 278,
+        "h": 24
+      },
+      "aspect": 11.5833,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.827
+        },
+        {
+          "hex": "#1b3c11",
+          "coverage": 0.0647
+        },
+        {
+          "hex": "#395834",
+          "coverage": 0.045
+        },
+        {
+          "hex": "#ccd7c9",
+          "coverage": 0.0352
+        },
+        {
+          "hex": "#a1b59e",
+          "coverage": 0.0281
+        }
+      ],
+      "detail": {
+        "energy": 59.0215
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 24,
+          "capHeightPx": 13,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5385,
+          "advTall": 0.5,
+          "advX": 0.5385,
+          "gap": 0.1154,
+          "xRatio": 0.7059,
+          "stemW": 0.1561,
+          "contrast": 0.9951,
+          "serif": null,
+          "densTall": 0.5375,
+          "densX": 0.5594,
+          "weight": 0.5375
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "note-three-description",
+      "kind": "text",
+      "note": "Exploring freedom, focus, and building on my own terms.",
+      "grid": "H8:J9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.7819,
+        "y": 0.8975,
+        "w": 0.1816,
+        "h": 0.0469
+      },
+      "px": {
+        "x": 1201,
+        "y": 919,
+        "w": 279,
+        "h": 48
+      },
+      "aspect": 5.8125,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.878
+        },
+        {
+          "hex": "#939394",
+          "coverage": 0.0364
+        },
+        {
+          "hex": "#565857",
+          "coverage": 0.0324
+        },
+        {
+          "hex": "#2e2e2e",
+          "coverage": 0.0303
+        },
+        {
+          "hex": "#c2c2c4",
+          "coverage": 0.0229
+        }
+      ],
+      "detail": {
+        "energy": 43.5018
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 42,
+          "capHeightPx": 12.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5671,
+          "advTall": 0.4712,
+          "advX": 0.5671,
+          "gap": 0.0567,
+          "xRatio": 0.7057,
+          "stemW": 0.1536,
+          "contrast": 1.0114,
+          "serif": 0.4769,
+          "densTall": 0.5453,
+          "densX": 0.5473,
+          "weight": 0.5453
+        },
+        "widthClass": "condensed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "note-three-caption",
+      "kind": "text",
+      "note": "Possible topic concept caption",
+      "grid": "H9:I9",
+      "codeDrawn": true,
+      "box": {
+        "x": 0.7819,
+        "y": 0.9521,
+        "w": 0.0755,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 1201,
+        "y": 975,
+        "w": 116,
+        "h": 22
+      },
+      "aspect": 5.2727,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9006
+        },
+        {
+          "hex": "#8f8f90",
+          "coverage": 0.0545
+        },
+        {
+          "hex": "#b8b9b9",
+          "coverage": 0.0449
+        }
+      ],
+      "detail": {
+        "energy": 14.9127
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 8,
+          "capHeightPx": 11.1,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5117,
+          "advTall": 0.5719,
+          "advX": 0.4816,
+          "gap": 0.0301,
+          "xRatio": 0.6813,
+          "stemW": 0.1646,
+          "contrast": 1.0343,
+          "serif": 0.8765,
+          "densTall": 0.4788,
+          "densX": 0.6411,
+          "weight": 0.4788
+        },
+        "widthClass": "condensed",
+        "weightClass": "regular"
+      }
+    }
+  ]
+}

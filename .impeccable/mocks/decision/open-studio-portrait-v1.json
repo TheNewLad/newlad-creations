@@ -1,0 +1,24 @@
+{
+  "method": "Local Pillow composition; no AI regeneration of the portrait",
+  "sourcePhoto": "src/images/karim-portrait.jpg",
+  "suppliedFilename": "MTB_2394-Retouched-2.jpg",
+  "basePreview": ".impeccable/mocks/decision/open-studio-v2.png",
+  "cropBoxSourcePixels": [
+    720,
+    105,
+    3560,
+    1775
+  ],
+  "heroBoxPreviewPixels": [
+    672,
+    76,
+    1536,
+    584
+  ],
+  "changes": [
+    "Crop and resize supplied portrait into the selected hero region",
+    "Remove obsolete concept-art caption beneath hero"
+  ],
+  "approved": false,
+  "directionSelected": true
+}

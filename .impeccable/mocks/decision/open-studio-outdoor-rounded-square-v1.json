@@ -1,0 +1,32 @@
+{
+  "method": "Local Pillow composition; no AI regeneration",
+  "sourcePhoto": "src/images/karim-portrait-outdoors.jpg",
+  "suppliedFilename": "02750333-1846-4646-AD1F-77384A1ECE9F.JPG",
+  "basePreview": ".impeccable/mocks/decision/open-studio-portrait-v1.png",
+  "cropBoxSourcePixels": [
+    80,
+    365,
+    2236,
+    2521
+  ],
+  "heroBoxPreviewPixels": [
+    672,
+    76,
+    1536,
+    584
+  ],
+  "portraitBoxPreviewPixels": [
+    880,
+    104,
+    1328,
+    552
+  ],
+  "shape": "rounded-square",
+  "cornerRadiusPreviewPixels": 40,
+  "changes": [
+    "Replace prior portrait with supplied black-and-white outdoor photo",
+    "Apply rounded-square crop on the existing white hero background"
+  ],
+  "approved": false,
+  "directionSelected": true
+}

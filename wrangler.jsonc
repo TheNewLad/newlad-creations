@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "newlad-creations",
+  "account_id": "11cdfab7d0f1edfa5b338013f247a60f",
+  "compatibility_date": "2026-09-27",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "newladcreations.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.newladcreations.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

@@ -2,42 +2,43 @@
 import "@/styles/global.css";
 import { Image } from "astro:assets";
 import logo from "@/images/NLC-logo.svg";
-
-const {
-  title = "NewLad Creations",
-  description = "Novel Engineering: Wisdom, Life & Dreams",
-} = Astro.props;
+interface Props { title?: string; description?: string; home?: boolean; }
+const { title = "NewLad Creations — Karim Dallas-Newell", description = "I'm Karim. Software, automations, experiments, and the occasional detour. A place for what I'm building and figuring out along the way.", home = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
-
-<html lang="en" class="h-full">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/kedebideri-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/kedebideri-700.woff2" as="font" type="font/woff2" crossorigin />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="NewLad Creations" />
   </head>
-  <body class="h-full flex flex-col bg-white text-slate-900">
-    <header class="border-b">
-      <nav class="mx-auto max-w-5xl flex items-center justify-between p-4">
-        <div class="flex items-center gap-2">
-          <Image src={logo} alt="NewLad Creations" width={32} height={32} />
-          <a href="/" class="font-semibold hidden sm:block">NewLad Creations</a>
-        </div>
-        <ul class="flex gap-4">
-          <li><a href="/" class="hover:underline">Home</a></li>
-          <li><a href="/creations" class="hover:underline">Creations</a></li>
-        </ul>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="/">NewLad Creations</a>
+      <nav aria-label="Main navigation">
+        <a href="/creations" aria-current={Astro.url.pathname.startsWith("/creations") ? "page" : undefined}>Creations</a>
+        <a href="/notes" aria-current={Astro.url.pathname.replace(/\/$/, "") === "/notes" ? "page" : Astro.url.pathname.startsWith("/notes/") ? "location" : undefined}>Notes</a>
+        <a href="/#about">About</a>
+        <a class="cta-link hello-link" href="mailto:karim@newladcreations.com">Say hello</a>
       </nav>
     </header>
-
-    <main class="flex-1 mx-auto max-w-5xl p-6">
-      <slot />
-    </main>
-
-    <footer class="mt-12 border-t">
-      <div class="mx-auto max-w-5xl p-4 text-sm text-slate-600">
-        © {new Date().getFullYear()} NewLad Creations — Think. Build. Reflect.
-      </div>
+    <main id="main" class:list={["page", { "home-page": home, "interior-page": !home }]} tabindex="-1"><slot /></main>
+    <footer class="site-footer page">
+      <a class="footer-brand" href="/"><Image src={logo} alt="" width={40} height={40} /><span>NewLad Creations</span></a>
+      <p>Still making things. Still figuring it out.</p>
+      <span class="copyright">© {new Date().getFullYear()} Karim Dallas-Newell</span>
     </footer>
   </body>
 </html>

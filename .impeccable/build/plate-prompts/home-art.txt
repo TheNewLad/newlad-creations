@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: isolated website card art plate
+Input image: Image 1 is a visual reference for the approved home-art crop's composition, proportions, object placement, materials, and lighting only.
+Scene/backdrop: flat pure white opaque background filling the entire frame.
+Subject: an off-white tactile 3D wall panel with a square stone-colored backing and three small raised off-white switches arranged in one row; each switch has one simple black line icon: a light bulb, a fan, and a plug; include a small outlined house icon above the switches on the wall panel.
+Style/medium: refined minimal 3D product illustration with softly rounded edges, realistic shallow depth, subtle ambient occlusion, and a quiet editorial website-art direction.
+Composition/framing: single isolated wall panel centered in the frame with generous pure-white breathing room; preserve the reference crop's proportions and relative placement; landscape-friendly card plate.
+Lighting/mood: soft diffuse studio light from above-left, restrained tactile shadows, calm and precise.
+Color palette: warm off-white panel and switches, pale stone and taupe backing, charcoal-black line icons, pure white background.
+Materials/textures: smooth painted plaster and ceramic-like switch faces, softly porous stone backing, subtle bevels and contact shadows.
+Text (verbatim): none.
+Constraints: opaque output; preserve the approved reference's simple wall-panel silhouette and three-switch arrangement; use only the three icons and the small house outline; no semantic UI copy.
+Avoid: words, letters, numbers, labels, logos, watermark, extra switches, extra objects, people, colored background, transparent background, harsh reflections, deep black panel, photoreal room context.
